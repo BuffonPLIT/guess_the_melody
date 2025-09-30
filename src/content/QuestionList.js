@@ -1,13 +1,13 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { Button, ButtonGroup, Dialog, DialogContent, DialogTitle, Slide } from '@mui/material';
-import Quastion from './Question';
+import Question from './Question';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function Quastions({ activeTheme }) {
+function Questions({ activeTheme }) {
   let [questionIndex, setIndex] = React.useState(null);
   const [open, setOpen] = React.useState(false);
   const [currentQuestion, setcurrentQuestion] = React.useState({});
@@ -72,7 +72,7 @@ function Quastions({ activeTheme }) {
           >
             <DialogTitle>{`${activeTheme?.name} | question № ${questionIndex + 1}`}</DialogTitle>
             <DialogContent sx={{ minHeight: '450px', margin: 'auto' }}>
-              <Quastion
+              <Question
                 id={currentQuestion.id}
                 answer={currentQuestion.answer}
                 color={activeTheme?.color}
@@ -82,7 +82,7 @@ function Quastions({ activeTheme }) {
                 handleNexst={handleNexst}
               >
                 {currentQuestion.questionNode}
-              </Quastion>
+              </Question>
             </DialogContent>
           </Dialog>
         </Box>
@@ -91,4 +91,4 @@ function Quastions({ activeTheme }) {
   );
 }
 
-export default Quastions;
+export default Questions;

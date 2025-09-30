@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Quastions from './Quastions';
+import Questions from './QuestionList';
 import { Container, Grid } from '@mui/material';
 import PlayersResults from './PlayersResults';
 import ThemeSelector from './ThemeSelector';
@@ -46,7 +46,7 @@ function Game() {
           }}
         >
           <ThemeSelector selectThemeHandle={selectThemeHandle} activeTheme={activeTheme} />
-          <Quastions activeTheme={activeTheme} />
+          <Questions activeTheme={activeTheme} />
         </Box>
         <Box
           sx={{

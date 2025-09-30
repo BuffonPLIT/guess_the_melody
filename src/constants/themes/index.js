@@ -1,4 +1,4 @@
-export { QUASTIONS_TEST } from './QUASTIONS_TEST.js';
+export { TEST } from './TEST.js';
 export { QUASTIONS_80S } from './QUASTIONS_80S.js';
 export { QUASTIONS_SOUNDTRACK_4 } from './QUASTIONS_SOUNDTRACK_4.js';
 export { GUES_LANGUAGE } from './GUES_LANGUAGE.js';

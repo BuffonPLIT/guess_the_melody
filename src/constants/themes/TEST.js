@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_TEST = {
+const TEST = {
   name: 'For test',
   id: uuidv4(),
   type: 'iframe',
@@ -66,4 +66,4 @@ const QUASTIONS_TEST = {
   ],
 };
 
-export { QUASTIONS_TEST };
+export { TEST };

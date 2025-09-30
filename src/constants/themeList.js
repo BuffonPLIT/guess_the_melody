@@ -22,7 +22,7 @@ export const MUSIC_THEME_LIST = [
   Themes.DANCE,
   Themes.RAP,
   Themes.QUASTIONS_RAP,
-  Themes.QUASTIONS_TEST,
+  Themes.TEST,
   Themes.QUASTIONS_BELARUS,
   Themes.QUASTIONS_BELARUS_2,
   Themes.QUASTIONS_UKRAINE,
@@ -43,5 +43,5 @@ export const MUSIC_THEME_LIST = [
   Themes.STARS_PHOTOS,
   Themes.MULTFILM,
   Themes.ADD,
-  Themes.QUASTIONS_MOVIES_2025
+  Themes.QUASTIONS_MOVIES_2025,
 ];

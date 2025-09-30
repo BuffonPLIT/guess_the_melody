@@ -11,7 +11,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { decrementPlayers, incrementPlayers, updatePlayers } from '../redux/playersSlice';
 import MenuIcon from '@mui/icons-material/Menu';
 
-function LeftDrower() {
+function LeftDrawer() {
   const [state, setState] = React.useState({ left: false });
   const dispatch = useDispatch();
   const playersList = useSelector((state) => state.playersList.value);
@@ -98,4 +98,4 @@ function LeftDrower() {
   );
 }
 
-export default LeftDrower;
+export default LeftDrawer;
