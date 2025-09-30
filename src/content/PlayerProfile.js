@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, TextField } from "@mui/material";
-import Avatar from "@mui/material/Avatar";
+import React from 'react';
+import { Grid, TextField } from '@mui/material';
+import Avatar from '@mui/material/Avatar';
 
 function PlayerProfile({ id, name, avalink, onNameChange, onAvaChange }) {
   const handleNameChange = (e) => {
@@ -16,18 +16,10 @@ function PlayerProfile({ id, name, avalink, onNameChange, onAvaChange }) {
         <Avatar alt={name} src={avalink} rows={3} />
       </Grid>
       <Grid item xs={5}>
-        <TextField
-          onChange={handleNameChange}
-          defaultValue={name}
-          label="Player Name"
-        />
+        <TextField onChange={handleNameChange} defaultValue={name} label="Player Name" />
       </Grid>
       <Grid item xs={5}>
-        <TextField
-          onChange={handleAvaChange}
-          defaultValue={avalink}
-          label="Ava Link"
-        />
+        <TextField onChange={handleAvaChange} defaultValue={avalink} label="Ava Link" />
       </Grid>
     </Grid>
   );

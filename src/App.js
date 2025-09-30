@@ -1,11 +1,11 @@
-import "./App.css";
-import Game from "./content/Game";
-import LeftDrower from "./content/LeftDrower";
+import './App.css';
+import Game from './content/Game';
+import LeftDrower from './content/LeftDrower';
 
 function App() {
   return (
     <div className="App">
-      <LeftDrower/>
+      <LeftDrower />
       <Game></Game>
     </div>
   );

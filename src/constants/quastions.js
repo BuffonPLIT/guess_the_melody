@@ -1,15 +1,15 @@
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from 'uuid';
 
 const QUASTIONS_TEST = {
-  name: "For test",
+  name: 'For test',
   id: uuidv4(),
-  type: "iframe",
-  color: "#000000",
+  type: 'iframe',
+  color: '#000000',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Alex F",
+      answer: 'Alex F',
       questionNode: (
         <iframe
           width="560"
@@ -23,7 +23,7 @@ const QUASTIONS_TEST = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Lady Gaga",
+      answer: 'Lady Gaga',
       questionNode: (
         <iframe
           width="560"
@@ -37,7 +37,7 @@ const QUASTIONS_TEST = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nirvana",
+      answer: 'Nirvana',
       questionNode: (
         <iframe
           width="560"
@@ -51,7 +51,7 @@ const QUASTIONS_TEST = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Harry Potter",
+      answer: 'Harry Potter',
       questionNode: (
         <iframe
           width="560"
@@ -66,15 +66,15 @@ const QUASTIONS_TEST = {
   ],
 };
 const QUASTIONS_80S = {
-  name: "80s",
+  name: '80s',
   id: uuidv4(),
-  type: "iframe",
-  color: "#006400",
+  type: 'iframe',
+  color: '#006400',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "ABBA - Gimme!Gimme!Gimme!",
+      answer: 'ABBA - Gimme!Gimme!Gimme!',
       questionNode: (
         <iframe
           width="560"
@@ -88,7 +88,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Boney M - Daddy Cool",
+      answer: 'Boney M - Daddy Cool',
       questionNode: (
         <iframe
           width="560"
@@ -102,7 +102,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Europe - The final Countdown",
+      answer: 'Europe - The final Countdown',
       questionNode: (
         <iframe
           width="560"
@@ -116,7 +116,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "CC Catch - Cause You Are Young",
+      answer: 'CC Catch - Cause You Are Young',
       questionNode: (
         <iframe
           width="560"
@@ -130,7 +130,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dead Or Alive - You Spin Me Round",
+      answer: 'Dead Or Alive - You Spin Me Round',
       questionNode: (
         <iframe
           width="560"
@@ -144,7 +144,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shocking Blue - Venus",
+      answer: 'Shocking Blue - Venus',
       questionNode: (
         <iframe
           width="560"
@@ -158,7 +158,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Kiss - I Was Made For Loving You",
+      answer: 'Kiss - I Was Made For Loving You',
       questionNode: (
         <iframe
           width="560"
@@ -172,7 +172,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "a-Ha - Take On Me",
+      answer: 'a-Ha - Take On Me',
       questionNode: (
         <iframe
           width="560"
@@ -186,7 +186,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Michael Jackson - Beat It",
+      answer: 'Michael Jackson - Beat It',
       questionNode: (
         <iframe
           width="560"
@@ -200,7 +200,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Madonna - La Isla Bonita",
+      answer: 'Madonna - La Isla Bonita',
       questionNode: (
         <iframe
           width="560"
@@ -214,7 +214,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Queen - Another One Bites",
+      answer: 'Queen - Another One Bites',
       questionNode: (
         <iframe
           width="560"
@@ -228,7 +228,7 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Modern Talking - Cheri Cheri Lady",
+      answer: 'Modern Talking - Cheri Cheri Lady',
       questionNode: (
         <iframe
           width="560"
@@ -242,15 +242,15 @@ const QUASTIONS_80S = {
   ],
 };
 const QUASTIONS_SOUNDTRACK_4 = {
-  name: "Soundtrack 4",
+  name: 'Soundtrack 4',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF0000",
+  type: 'iframe',
+  color: '#FF0000',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Taxi",
+      answer: 'Taxi',
       questionNode: (
         <iframe
           width="560"
@@ -264,7 +264,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Fifth Element",
+      answer: 'The Fifth Element',
       questionNode: (
         <iframe
           width="560"
@@ -278,7 +278,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Terminator 2",
+      answer: 'Terminator 2',
       questionNode: (
         <iframe
           width="560"
@@ -292,7 +292,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Friends",
+      answer: 'Friends',
       questionNode: (
         <iframe
           width="560"
@@ -306,7 +306,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Wensday",
+      answer: 'Wensday',
       questionNode: (
         <iframe
           width="560"
@@ -320,7 +320,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Lord Of The Ring",
+      answer: 'The Lord Of The Ring',
       questionNode: (
         <iframe
           width="560"
@@ -334,7 +334,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Pulp Fiction",
+      answer: 'Pulp Fiction',
       questionNode: (
         <iframe
           width="560"
@@ -348,7 +348,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Requiem For A Dream",
+      answer: 'Requiem For A Dream',
       questionNode: (
         <iframe
           width="560"
@@ -362,7 +362,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Leon",
+      answer: 'Leon',
       questionNode: (
         <iframe
           width="560"
@@ -376,7 +376,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Transformers 2",
+      answer: 'Transformers 2',
       questionNode: (
         <iframe
           width="560"
@@ -390,7 +390,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Forsage 3",
+      answer: 'Forsage 3',
       questionNode: (
         <iframe
           width="560"
@@ -404,7 +404,7 @@ const QUASTIONS_SOUNDTRACK_4 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Yamakasi",
+      answer: 'Yamakasi',
       questionNode: (
         <iframe
           width="560"
@@ -418,15 +418,15 @@ const QUASTIONS_SOUNDTRACK_4 = {
   ],
 };
 const GUES_LANGUAGE = {
-  name: "Guess language",
+  name: 'Guess language',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FFD700",
+  type: 'iframe',
+  color: '#FFD700',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Franch",
+      answer: 'Franch',
       questionNode: (
         <iframe
           width="560"
@@ -440,7 +440,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jewish",
+      answer: 'Jewish',
       questionNode: (
         <iframe
           width="560"
@@ -454,7 +454,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Serbian",
+      answer: 'Serbian',
       questionNode: (
         <iframe
           width="560"
@@ -468,7 +468,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Belarusian",
+      answer: 'Belarusian',
       questionNode: (
         <iframe
           width="560"
@@ -482,7 +482,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Icelandian",
+      answer: 'Icelandian',
       questionNode: (
         <iframe
           width="560"
@@ -496,7 +496,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Netherlands",
+      answer: 'Netherlands',
       questionNode: (
         <iframe
           width="560"
@@ -510,7 +510,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Japanice",
+      answer: 'Japanice',
       questionNode: (
         <iframe
           width="560"
@@ -524,7 +524,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Deuch",
+      answer: 'Deuch',
       questionNode: (
         <iframe
           width="560"
@@ -538,7 +538,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ukrainian",
+      answer: 'Ukrainian',
       questionNode: (
         <iframe
           width="560"
@@ -552,7 +552,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Moldavian",
+      answer: 'Moldavian',
       questionNode: (
         <iframe
           width="560"
@@ -566,7 +566,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Lithuanian",
+      answer: 'Lithuanian',
       questionNode: (
         <iframe
           width="560"
@@ -580,7 +580,7 @@ const GUES_LANGUAGE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Gypsy",
+      answer: 'Gypsy',
       questionNode: (
         <iframe
           width="560"
@@ -594,15 +594,15 @@ const GUES_LANGUAGE = {
   ],
 };
 const QUASTIONS_90S = {
-  name: "90s 3",
+  name: '90s 3',
   id: uuidv4(),
-  type: "iframe",
-  color: "#32CD32",
+  type: 'iframe',
+  color: '#32CD32',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "The Cranberries - Zombie",
+      answer: 'The Cranberries - Zombie',
       questionNode: (
         <iframe
           width="560"
@@ -616,7 +616,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nirvana - Smells Like Teen Ppirit",
+      answer: 'Nirvana - Smells Like Teen Ppirit',
       questionNode: (
         <iframe
           width="560"
@@ -630,7 +630,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shakira - Whenever",
+      answer: 'Shakira - Whenever',
       questionNode: (
         <iframe
           width="560"
@@ -644,7 +644,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Avrile Lavigne - Complicated",
+      answer: 'Avrile Lavigne - Complicated',
       questionNode: (
         <iframe
           width="560"
@@ -658,7 +658,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ricky Martin - Livin La Vida Loca",
+      answer: 'Ricky Martin - Livin La Vida Loca',
       questionNode: (
         <iframe
           width="560"
@@ -672,7 +672,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "DMX - Party Up",
+      answer: 'DMX - Party Up',
       questionNode: (
         <iframe
           width="560"
@@ -686,7 +686,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Cristina Aguilera - Genie in A Bott...",
+      answer: 'Cristina Aguilera - Genie in A Bott...',
       questionNode: (
         <iframe
           width="560"
@@ -700,7 +700,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Natalia Oreiro - Cambio Dolor",
+      answer: 'Natalia Oreiro - Cambio Dolor',
       questionNode: (
         <iframe
           width="560"
@@ -714,7 +714,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Offspring - The Kids Are Not ...",
+      answer: 'The Offspring - The Kids Are Not ...',
       questionNode: (
         <iframe
           width="560"
@@ -728,7 +728,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Britney Spearts - Baby One Mory Time",
+      answer: 'Britney Spearts - Baby One Mory Time',
       questionNode: (
         <iframe
           width="560"
@@ -742,7 +742,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jenifer Lopez - Jenny from the",
+      answer: 'Jenifer Lopez - Jenny from the',
       questionNode: (
         <iframe
           width="560"
@@ -756,7 +756,7 @@ const QUASTIONS_90S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rammstein - Du Hast",
+      answer: 'Rammstein - Du Hast',
       questionNode: (
         <iframe
           width="560"
@@ -773,15 +773,15 @@ const QUASTIONS_90S = {
   ],
 };
 const QUASTIONS_00S = {
-  name: "2000s",
+  name: '2000s',
   id: uuidv4(),
-  type: "iframe",
-  color: "#00FF00",
+  type: 'iframe',
+  color: '#00FF00',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Green Day - American Idiot",
+      answer: 'Green Day - American Idiot',
       questionNode: (
         <iframe
           width="560"
@@ -795,7 +795,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Cardigans - My Favourite Game",
+      answer: 'The Cardigans - My Favourite Game',
       questionNode: (
         <iframe
           width="560"
@@ -809,7 +809,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Justin Timberlake - Cry Me A River...",
+      answer: 'Justin Timberlake - Cry Me A River...',
       questionNode: (
         <iframe
           width="560"
@@ -823,7 +823,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Alizee - Moi Lolita",
+      answer: 'Alizee - Moi Lolita',
       questionNode: (
         <iframe
           width="560"
@@ -837,7 +837,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Katty Perry - I Kiss A Girl",
+      answer: 'Katty Perry - I Kiss A Girl',
       questionNode: (
         <iframe
           width="560"
@@ -851,7 +851,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Black Eyed Peas - My Humps",
+      answer: 'The Black Eyed Peas - My Humps',
       questionNode: (
         <iframe
           width="560"
@@ -879,7 +879,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "50 Cent - In Da Club",
+      answer: '50 Cent - In Da Club',
       questionNode: (
         <iframe
           width="560"
@@ -893,7 +893,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Lady Gaga - Just Dance",
+      answer: 'Lady Gaga - Just Dance',
       questionNode: (
         <iframe
           width="560"
@@ -907,7 +907,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Armin Van Buren feat Sharon den Adel",
+      answer: 'Armin Van Buren feat Sharon den Adel',
       questionNode: (
         <iframe
           width="560"
@@ -921,7 +921,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna - Disturbia",
+      answer: 'Rihanna - Disturbia',
       questionNode: (
         <iframe
           width="560"
@@ -935,7 +935,7 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Beyonce - Crazy In Love",
+      answer: 'Beyonce - Crazy In Love',
       questionNode: (
         <iframe
           width="560"
@@ -949,15 +949,15 @@ const QUASTIONS_00S = {
   ],
 };
 const QUASTIONS_ACTUAL = {
-  name: "2010+",
+  name: '2010+',
   id: uuidv4(),
-  type: "iframe",
-  color: "#CCFFCC",
+  type: 'iframe',
+  color: '#CCFFCC',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Billie Eilish - bad guy",
+      answer: 'Billie Eilish - bad guy',
       questionNode: (
         <iframe
           width="560"
@@ -971,7 +971,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PSY - GENTLEMAN",
+      answer: 'PSY - GENTLEMAN',
       questionNode: (
         <iframe
           width="560"
@@ -985,7 +985,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dua Lipa - New Rules",
+      answer: 'Dua Lipa - New Rules',
       questionNode: (
         <iframe
           width="560"
@@ -999,7 +999,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Imagine Dragons - Believer",
+      answer: 'Imagine Dragons - Believer',
       questionNode: (
         <iframe
           width="560"
@@ -1013,7 +1013,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Luis Fonsi - Despacito",
+      answer: 'Luis Fonsi - Despacito',
       questionNode: (
         <iframe
           width="560"
@@ -1041,7 +1041,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Justin Bieber - Sorry",
+      answer: 'Justin Bieber - Sorry',
       questionNode: (
         <iframe
           width="560"
@@ -1055,7 +1055,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna - Where Have You Been",
+      answer: 'Rihanna - Where Have You Been',
       questionNode: (
         <iframe
           width="560"
@@ -1069,7 +1069,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Adele - Rolling in the Deep",
+      answer: 'Adele - Rolling in the Deep',
       questionNode: (
         <iframe
           width="560"
@@ -1083,7 +1083,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "KAZKA — ПЛАКАЛА",
+      answer: 'KAZKA — ПЛАКАЛА',
       questionNode: (
         <iframe
           width="560"
@@ -1097,7 +1097,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shakira - Waka Waka",
+      answer: 'Shakira - Waka Waka',
       questionNode: (
         <iframe
           width="560"
@@ -1111,7 +1111,7 @@ const QUASTIONS_ACTUAL = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rammstein - Deutschland",
+      answer: 'Rammstein - Deutschland',
       questionNode: (
         <iframe
           width="560"
@@ -1125,15 +1125,15 @@ const QUASTIONS_ACTUAL = {
   ],
 };
 const METAL_1 = {
-  name: "Metal Childhood 1",
+  name: 'Metal Childhood 1',
   id: uuidv4(),
-  type: "iframe",
-  color: "#00008B",
+  type: 'iframe',
+  color: '#00008B',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "HIM - Wicked Game",
+      answer: 'HIM - Wicked Game',
       questionNode: (
         <iframe
           width="560"
@@ -1148,7 +1148,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Slipknot - Psychosocial",
+      answer: 'Slipknot - Psychosocial',
       questionNode: (
         <iframe
           width="560"
@@ -1163,7 +1163,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Korn - Freak On a Leash",
+      answer: 'Korn - Freak On a Leash',
       questionNode: (
         <iframe
           width="560"
@@ -1178,7 +1178,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Within Temptation - Stand My Ground",
+      answer: 'Within Temptation - Stand My Ground',
       questionNode: (
         <iframe
           width="560"
@@ -1193,7 +1193,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "System Of A Down - Toxicity",
+      answer: 'System Of A Down - Toxicity',
       questionNode: (
         <iframe
           width="560"
@@ -1208,7 +1208,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Limp Bizkit - Rollin",
+      answer: 'Limp Bizkit - Rollin',
       questionNode: (
         <iframe
           width="560"
@@ -1223,7 +1223,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Lordi - Hard Rock Hallelujah",
+      answer: 'Lordi - Hard Rock Hallelujah',
       questionNode: (
         <iframe
           width="560"
@@ -1238,7 +1238,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Marilyn Manson - Tainted Love",
+      answer: 'Marilyn Manson - Tainted Love',
       questionNode: (
         <iframe
           width="560"
@@ -1253,7 +1253,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nightwish - Nemo",
+      answer: 'Nightwish - Nemo',
       questionNode: (
         <iframe
           width="560"
@@ -1268,7 +1268,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Static-X - The Only",
+      answer: 'Static-X - The Only',
       questionNode: (
         <iframe
           width="560"
@@ -1283,7 +1283,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Black Sabbath - Paranoid",
+      answer: 'Black Sabbath - Paranoid',
       questionNode: (
         <iframe
           width="560"
@@ -1298,7 +1298,7 @@ const METAL_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Metallica - The Unforgiven",
+      answer: 'Metallica - The Unforgiven',
       questionNode: (
         <iframe
           width="560"
@@ -1313,15 +1313,15 @@ const METAL_1 = {
   ],
 };
 const QUASTIONS_80S_2 = {
-  name: "80s",
+  name: '80s',
   id: uuidv4(),
-  type: "iframe",
-  color: "#4A7C59",
+  type: 'iframe',
+  color: '#4A7C59',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Madonna - Like A Prayer",
+      answer: 'Madonna - Like A Prayer',
       questionNode: (
         <iframe
           width="560"
@@ -1366,7 +1366,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Depeche Mode - Enjoy The Silence",
+      answer: 'Depeche Mode - Enjoy The Silence',
       questionNode: (
         <iframe
           width="560"
@@ -1381,7 +1381,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bon Jovi - You Give Love A Bad Name",
+      answer: 'Bon Jovi - You Give Love A Bad Name',
       questionNode: (
         <iframe
           width="560"
@@ -1396,7 +1396,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Boney M. - Gotta Go Home",
+      answer: 'Boney M. - Gotta Go Home',
       questionNode: (
         <iframe
           width="560"
@@ -1411,7 +1411,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "ABBA - Lay All Your Love On Me",
+      answer: 'ABBA - Lay All Your Love On Me',
       questionNode: (
         <iframe
           width="560"
@@ -1426,7 +1426,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Scorpions - Still Loving You",
+      answer: 'Scorpions - Still Loving You',
       questionNode: (
         <iframe
           width="560"
@@ -1441,7 +1441,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Deep Purple - Smoke On The Water",
+      answer: 'Deep Purple - Smoke On The Water',
       questionNode: (
         <iframe
           width="560"
@@ -1456,7 +1456,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Michael Jackson - Smooth Criminal",
+      answer: 'Michael Jackson - Smooth Criminal',
       questionNode: (
         <iframe
           width="560"
@@ -1471,7 +1471,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Duran Duran - Come Undone",
+      answer: 'Duran Duran - Come Undone',
       questionNode: (
         <iframe
           width="560"
@@ -1486,7 +1486,7 @@ const QUASTIONS_80S_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "AC/DC - Hells Bells",
+      answer: 'AC/DC - Hells Bells',
       questionNode: (
         <iframe
           width="560"
@@ -1501,15 +1501,15 @@ const QUASTIONS_80S_2 = {
   ],
 };
 const QUASTIONS_SOUNDTRACK_2 = {
-  name: "Soundtrack 2",
+  name: 'Soundtrack 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#B22222",
+  type: 'iframe',
+  color: '#B22222',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "The Rock",
+      answer: 'The Rock',
       questionNode: (
         <iframe
           width="560"
@@ -1524,7 +1524,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "8 mile",
+      answer: '8 mile',
       questionNode: (
         <iframe
           width="560"
@@ -1539,7 +1539,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Matrix",
+      answer: 'Matrix',
       questionNode: (
         <iframe
           width="560"
@@ -1554,7 +1554,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Blade",
+      answer: 'Blade',
       questionNode: (
         <iframe
           width="560"
@@ -1569,7 +1569,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Titanic",
+      answer: 'Titanic',
       questionNode: (
         <iframe
           width="560"
@@ -1584,7 +1584,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Pirates Of Caribbean",
+      answer: 'Pirates Of Caribbean',
       questionNode: (
         <iframe
           width="560"
@@ -1599,7 +1599,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Office",
+      answer: 'The Office',
       questionNode: (
         <iframe
           width="560"
@@ -1614,7 +1614,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Saw",
+      answer: 'Saw',
       questionNode: (
         <iframe
           width="560"
@@ -1629,7 +1629,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Peppa Pig",
+      answer: 'Peppa Pig',
       questionNode: (
         <iframe
           width="560"
@@ -1644,7 +1644,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Wlly Wonka",
+      answer: 'Wlly Wonka',
       questionNode: (
         <iframe
           width="560"
@@ -1659,7 +1659,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "James Bond",
+      answer: 'James Bond',
       questionNode: (
         <iframe
           width="560"
@@ -1674,7 +1674,7 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Zorro",
+      answer: 'Zorro',
       questionNode: (
         <iframe
           width="560"
@@ -1689,15 +1689,15 @@ const QUASTIONS_SOUNDTRACK_2 = {
   ],
 };
 const QUASTIONS_SOUNDTRACK_3 = {
-  name: "Soundtrack 3",
+  name: 'Soundtrack 3',
   id: uuidv4(),
-  type: "iframe",
-  color: "#DC143C",
+  type: 'iframe',
+  color: '#DC143C',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "The Lord Of The Ring",
+      answer: 'The Lord Of The Ring',
       questionNode: (
         <iframe
           width="560"
@@ -1712,7 +1712,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Amelie",
+      answer: 'Amelie',
       questionNode: (
         <iframe
           width="560"
@@ -1727,7 +1727,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "From Dusk Till Dawn",
+      answer: 'From Dusk Till Dawn',
       questionNode: (
         <iframe
           width="560"
@@ -1742,7 +1742,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sinister",
+      answer: 'Sinister',
       questionNode: (
         <iframe
           width="560"
@@ -1757,7 +1757,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rocky",
+      answer: 'Rocky',
       questionNode: (
         <iframe
           width="560"
@@ -1772,7 +1772,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ognem i Mieczem",
+      answer: 'Ognem i Mieczem',
       questionNode: (
         <iframe
           width="560"
@@ -1787,7 +1787,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Resident Evil",
+      answer: 'Resident Evil',
       questionNode: (
         <iframe
           width="560"
@@ -1802,7 +1802,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dirty Dancing 2",
+      answer: 'Dirty Dancing 2',
       questionNode: (
         <iframe
           width="560"
@@ -1817,7 +1817,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Indiana Jones",
+      answer: 'Indiana Jones',
       questionNode: (
         <iframe
           width="560"
@@ -1832,7 +1832,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Prison Break",
+      answer: 'Prison Break',
       questionNode: (
         <iframe
           width="560"
@@ -1847,7 +1847,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Mask",
+      answer: 'The Mask',
       questionNode: (
         <iframe
           width="560"
@@ -1862,7 +1862,7 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Eurotrip Remaster",
+      answer: 'Eurotrip Remaster',
       questionNode: (
         <iframe
           width="560"
@@ -1877,10 +1877,10 @@ const QUASTIONS_SOUNDTRACK_3 = {
   ],
 };
 const QUASTIONS_RAP = {
-  name: "Rap+Hip-Hop",
+  name: 'Rap+Hip-Hop',
   id: uuidv4(),
-  type: "iframe",
-  color: "#000000",
+  type: 'iframe',
+  color: '#000000',
   list: [
     {
       user: null,
@@ -1900,7 +1900,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "50 Cent - Candy Shop",
+      answer: '50 Cent - Candy Shop',
       questionNode: (
         <iframe
           width="560"
@@ -1930,7 +1930,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Will Smith - Party Starter",
+      answer: 'Will Smith - Party Starter',
       questionNode: (
         <iframe
           width="560"
@@ -1945,7 +1945,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Die Antwoord - Rich Bitch",
+      answer: 'Die Antwoord - Rich Bitch',
       questionNode: (
         <iframe
           width="560"
@@ -1960,7 +1960,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dr. Dre - Still D.R.E. ft. Snoop Dogg",
+      answer: 'Dr. Dre - Still D.R.E. ft. Snoop Dogg',
       questionNode: (
         <iframe
           width="560"
@@ -1975,7 +1975,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Cypis - Putin",
+      answer: 'Cypis - Putin',
       questionNode: (
         <iframe
           width="560"
@@ -1990,7 +1990,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "DMX - Where The Hood At",
+      answer: 'DMX - Where The Hood At',
       questionNode: (
         <iframe
           width="560"
@@ -2005,7 +2005,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Eminem - Without Me",
+      answer: 'Eminem - Without Me',
       questionNode: (
         <iframe
           width="560"
@@ -2020,7 +2020,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "2Pac - California Love feat. Dr. Dre",
+      answer: '2Pac - California Love feat. Dr. Dre',
       questionNode: (
         <iframe
           width="560"
@@ -2037,7 +2037,7 @@ const QUASTIONS_RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Kalush Orchestra - Stefania",
+      answer: 'Kalush Orchestra - Stefania',
       questionNode: (
         <iframe
           width="560"
@@ -2067,10 +2067,10 @@ const QUASTIONS_RAP = {
   ],
 };
 const POP_1 = {
-  name: "Pop Childhood 1",
+  name: 'Pop Childhood 1',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF69B4",
+  type: 'iframe',
+  color: '#FF69B4',
   list: [
     {
       user: null,
@@ -2090,7 +2090,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "French Affair - Comme ci comme ca",
+      answer: 'French Affair - Comme ci comme ca',
       questionNode: (
         <iframe
           width="560"
@@ -2107,7 +2107,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Anastacia - Sick and Tired",
+      answer: 'Anastacia - Sick and Tired',
       questionNode: (
         <iframe
           width="560"
@@ -2122,7 +2122,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Calogero - Face à la mer",
+      answer: 'Calogero - Face à la mer',
       questionNode: (
         <iframe
           width="560"
@@ -2137,7 +2137,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Girls Aloud - Sound Of The Underground",
+      answer: 'Girls Aloud - Sound Of The Underground',
       questionNode: (
         <iframe
           width="560"
@@ -2152,7 +2152,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Spice Girls - Wannabe",
+      answer: 'Spice Girls - Wannabe',
       questionNode: (
         <iframe
           width="560"
@@ -2167,7 +2167,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sonia & Selena - Deja que mueva, mueva, mueva",
+      answer: 'Sonia & Selena - Deja que mueva, mueva, mueva',
       questionNode: (
         <iframe
           width="560"
@@ -2182,7 +2182,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Britney Spears - Oops!...I Did It Again",
+      answer: 'Britney Spears - Oops!...I Did It Again',
       questionNode: (
         <iframe
           width="560"
@@ -2197,7 +2197,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Cher - Believe",
+      answer: 'Cher - Believe',
       questionNode: (
         <iframe
           width="560"
@@ -2227,7 +2227,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ace of Base - All That She Wants ",
+      answer: 'Ace of Base - All That She Wants ',
       questionNode: (
         <iframe
           width="560"
@@ -2242,7 +2242,7 @@ const POP_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Titiyo - Come Along",
+      answer: 'Titiyo - Come Along',
       questionNode: (
         <iframe
           width="560"
@@ -2257,15 +2257,15 @@ const POP_1 = {
   ],
 };
 const POP_NEW = {
-  name: "New Pop",
+  name: 'New Pop',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FFB6C1",
+  type: 'iframe',
+  color: '#FFB6C1',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Dua Lipa - Levitating Featuring DaBaby",
+      answer: 'Dua Lipa - Levitating Featuring DaBaby',
       questionNode: (
         <iframe
           width="560"
@@ -2280,7 +2280,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Adele - Hello",
+      answer: 'Adele - Hello',
       questionNode: (
         <iframe
           width="560"
@@ -2295,7 +2295,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Meghan Trainor - Me Too",
+      answer: 'Meghan Trainor - Me Too',
       questionNode: (
         <iframe
           width="560"
@@ -2310,7 +2310,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Время и Стекло - Дим",
+      answer: 'Время и Стекло - Дим',
       questionNode: (
         <iframe
           width="560"
@@ -2325,7 +2325,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mylène Farmer feat. Sting - Stolen Car",
+      answer: 'Mylène Farmer feat. Sting - Stolen Car',
       questionNode: (
         <iframe
           width="560"
@@ -2340,7 +2340,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna - We Found Love ft. Calvin Harris",
+      answer: 'Rihanna - We Found Love ft. Calvin Harris',
       questionNode: (
         <iframe
           width="560"
@@ -2355,7 +2355,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Becky G, Bad Bunny - Mayores",
+      answer: 'Becky G, Bad Bunny - Mayores',
       questionNode: (
         <iframe
           width="560"
@@ -2370,7 +2370,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Indila - Ainsi Bas La Vida",
+      answer: 'Indila - Ainsi Bas La Vida',
       questionNode: (
         <iframe
           width="560"
@@ -2385,7 +2385,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shakira - Chantaje (Official Video) ft. Maluma",
+      answer: 'Shakira - Chantaje (Official Video) ft. Maluma',
       questionNode: (
         <iframe
           width="560"
@@ -2400,7 +2400,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jennifer Lopez - On The Floor ft. Pitbull",
+      answer: 'Jennifer Lopez - On The Floor ft. Pitbull',
       questionNode: (
         <iframe
           width="560"
@@ -2415,7 +2415,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Katy Perry - Roar",
+      answer: 'Katy Perry - Roar',
       questionNode: (
         <iframe
           width="560"
@@ -2430,7 +2430,7 @@ const POP_NEW = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Billie Eilish, Khalid - lovely",
+      answer: 'Billie Eilish, Khalid - lovely',
       questionNode: (
         <iframe
           width="560"
@@ -2445,15 +2445,15 @@ const POP_NEW = {
   ],
 };
 const ROCK = {
-  name: "Rock",
+  name: 'Rock',
   id: uuidv4(),
-  type: "iframe",
-  color: "#00BFFF",
+  type: 'iframe',
+  color: '#00BFFF',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Nickelback - How You Remind Me",
+      answer: 'Nickelback - How You Remind Me',
       questionNode: (
         <iframe
           width="560"
@@ -2468,7 +2468,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Travis - Sing",
+      answer: 'Travis - Sing',
       questionNode: (
         <iframe
           width="560"
@@ -2483,7 +2483,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "One Step Closer - Linkin Park",
+      answer: 'One Step Closer - Linkin Park',
       questionNode: (
         <iframe
           width="560"
@@ -2498,7 +2498,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nirvana - Come As You Are",
+      answer: 'Nirvana - Come As You Are',
       questionNode: (
         <iframe
           width="560"
@@ -2528,7 +2528,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Blur - Song 2",
+      answer: 'Blur - Song 2',
       questionNode: (
         <iframe
           width="560"
@@ -2543,7 +2543,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rammstein - Links 2 3 4",
+      answer: 'Rammstein - Links 2 3 4',
       questionNode: (
         <iframe
           width="560"
@@ -2558,7 +2558,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Avril Lavigne - Girlfriend ",
+      answer: 'Avril Lavigne - Girlfriend ',
       questionNode: (
         <iframe
           width="560"
@@ -2573,7 +2573,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sum 41 - In Too Deep",
+      answer: 'Sum 41 - In Too Deep',
       questionNode: (
         <iframe
           width="560"
@@ -2588,7 +2588,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Океан Ельзи - Я так хочу...",
+      answer: 'Океан Ельзи - Я так хочу...',
       questionNode: (
         <iframe
           width="560"
@@ -2603,7 +2603,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Offspring - Pretty Fly",
+      answer: 'The Offspring - Pretty Fly',
       questionNode: (
         <iframe
           width="560"
@@ -2618,7 +2618,7 @@ const ROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Крамбамбуля - Госцi",
+      answer: 'Крамбамбуля - Госцi',
       questionNode: (
         <iframe
           width="560"
@@ -2633,15 +2633,15 @@ const ROCK = {
   ],
 };
 const ROCK_3 = {
-  name: "Rock 3",
+  name: 'Rock 3',
   id: uuidv4(),
-  type: "iframe",
-  color: "#7DF9FF",
+  type: 'iframe',
+  color: '#7DF9FF',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Ляпic - Панас",
+      answer: 'Ляпic - Панас',
       questionNode: (
         <iframe
           width="560"
@@ -2658,7 +2658,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Warlock",
+      answer: 'Warlock',
       questionNode: (
         <iframe
           width="560"
@@ -2675,7 +2675,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Rasmus - No Fear (Official Music Video)",
+      answer: 'The Rasmus - No Fear (Official Music Video)',
       questionNode: (
         <iframe
           width="560"
@@ -2692,7 +2692,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Zdob si Zdub x Irina Rimes - Sanziene",
+      answer: 'Zdob si Zdub x Irina Rimes - Sanziene',
       questionNode: (
         <iframe
           width="560"
@@ -2709,7 +2709,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "AFI - Miss Murder",
+      answer: 'AFI - Miss Murder',
       questionNode: (
         <iframe
           width="560"
@@ -2726,7 +2726,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PIERSI - Bałkanica",
+      answer: 'PIERSI - Bałkanica',
       questionNode: (
         <iframe
           width="560"
@@ -2743,7 +2743,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Crazy Town - Butterfly",
+      answer: 'Crazy Town - Butterfly',
       questionNode: (
         <iframe
           width="560"
@@ -2760,7 +2760,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Воплі Відоплясова",
+      answer: 'Воплі Відоплясова',
       questionNode: (
         <iframe
           width="560"
@@ -2777,7 +2777,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Travis - Sing",
+      answer: 'Travis - Sing',
       questionNode: (
         <iframe
           width="560"
@@ -2794,7 +2794,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bloodhound Gang - I Hope You Die",
+      answer: 'Bloodhound Gang - I Hope You Die',
       questionNode: (
         <iframe
           width="560"
@@ -2811,7 +2811,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Amy Macdonald - This is the Life",
+      answer: 'Amy Macdonald - This is the Life',
       questionNode: (
         <iframe
           width="560"
@@ -2828,7 +2828,7 @@ const ROCK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Billy Talent - Rusted From The Rain ",
+      answer: 'Billy Talent - Rusted From The Rain ',
       questionNode: (
         <iframe
           width="560"
@@ -2845,175 +2845,175 @@ const ROCK_3 = {
   ],
 };
 const STARS_PHOTOS = {
-  name: "Music Photo",
+  name: 'Music Photo',
   id: uuidv4(),
-  type: "image",
-  color: "#FF8C00",
+  type: 'image',
+  color: '#FF8C00',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Мiхалок",
-      questionNode: "https://i.imgur.com/MOKth32.png",
+      answer: 'Мiхалок',
+      questionNode: 'https://i.imgur.com/MOKth32.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Kurt Cobain",
-      questionNode: "https://i.imgur.com/4E45jVS.png",
+      answer: 'Kurt Cobain',
+      questionNode: 'https://i.imgur.com/4E45jVS.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Shakira",
-      questionNode: "https://i.imgur.com/eC2s8Ig.png",
+      answer: 'Shakira',
+      questionNode: 'https://i.imgur.com/eC2s8Ig.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Lady Gaga",
-      questionNode: "https://i.imgur.com/oygF3Va.png",
+      answer: 'Lady Gaga',
+      questionNode: 'https://i.imgur.com/oygF3Va.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Dorofeeva",
-      questionNode: "https://i.imgur.com/Cue5wH4.png",
+      answer: 'Dorofeeva',
+      questionNode: 'https://i.imgur.com/Cue5wH4.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "50 Cent",
-      questionNode: "https://i.imgur.com/ri6j7HM.png",
+      answer: '50 Cent',
+      questionNode: 'https://i.imgur.com/ri6j7HM.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Beatles",
-      questionNode: "https://i.imgur.com/SSZmRTs.png",
+      answer: 'Beatles',
+      questionNode: 'https://i.imgur.com/SSZmRTs.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Elton John",
-      questionNode: "https://i.imgur.com/aRaYyMS.png",
+      answer: 'Elton John',
+      questionNode: 'https://i.imgur.com/aRaYyMS.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Данилко Андрій",
-      questionNode: "https://i.imgur.com/A0j7IcH.png",
+      answer: 'Данилко Андрій',
+      questionNode: 'https://i.imgur.com/A0j7IcH.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna",
-      questionNode: "https://i.imgur.com/TMfgSb2.png",
+      answer: 'Rihanna',
+      questionNode: 'https://i.imgur.com/TMfgSb2.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Eminem",
-      questionNode: "https://i.imgur.com/mCfSOka.png",
+      answer: 'Eminem',
+      questionNode: 'https://i.imgur.com/mCfSOka.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Halochka",
-      questionNode: "https://i.imgur.com/IyIOkpc.png",
+      answer: 'Halochka',
+      questionNode: 'https://i.imgur.com/IyIOkpc.png',
     },
   ],
 };
 const MOVIES_PHOTOS = {
-  name: "Movies Photo",
+  name: 'Movies Photo',
   id: uuidv4(),
-  type: "image",
-  color: "#FFA500",
+  type: 'image',
+  color: '#FFA500',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Monika Belucci",
-      questionNode: "https://i.imgur.com/wJW0nuX.png",
+      answer: 'Monika Belucci',
+      questionNode: 'https://i.imgur.com/wJW0nuX.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Jim Carrey",
-      questionNode: "https://i.imgur.com/ta4X5bo.png",
+      answer: 'Jim Carrey',
+      questionNode: 'https://i.imgur.com/ta4X5bo.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Bruce Willis",
-      questionNode: "https://i.imgur.com/KvGXEmo.png",
+      answer: 'Bruce Willis',
+      questionNode: 'https://i.imgur.com/KvGXEmo.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Sharliz Teron",
-      questionNode: "https://i.imgur.com/go3SqtW.png",
+      answer: 'Sharliz Teron',
+      questionNode: 'https://i.imgur.com/go3SqtW.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Harrison Ford",
-      questionNode: "https://i.imgur.com/5536Imm.png",
+      answer: 'Harrison Ford',
+      questionNode: 'https://i.imgur.com/5536Imm.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Leonardo Di Caprio",
-      questionNode: "https://i.imgur.com/R6I0pN4.png",
+      answer: 'Leonardo Di Caprio',
+      questionNode: 'https://i.imgur.com/R6I0pN4.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Sylvester Stallone",
-      questionNode: "https://i.imgur.com/pcjFidS.png",
+      answer: 'Sylvester Stallone',
+      questionNode: 'https://i.imgur.com/pcjFidS.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Scarlett Johansson",
-      questionNode: "https://i.imgur.com/nL3SWqB.png",
+      answer: 'Scarlett Johansson',
+      questionNode: 'https://i.imgur.com/nL3SWqB.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Pamela Andersen",
-      questionNode: "https://i.imgur.com/usW15vm.png",
+      answer: 'Pamela Andersen',
+      questionNode: 'https://i.imgur.com/usW15vm.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Daniel Radcliffe",
-      questionNode: "https://i.imgur.com/mOwUn6u.png",
+      answer: 'Daniel Radcliffe',
+      questionNode: 'https://i.imgur.com/mOwUn6u.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Milla Jovovich",
-      questionNode: "https://i.imgur.com/cCVkCiA.png",
+      answer: 'Milla Jovovich',
+      questionNode: 'https://i.imgur.com/cCVkCiA.png',
     },
     {
       user: null,
       id: uuidv4(),
-      answer: "Megan Fox",
-      questionNode: "https://i.imgur.com/YWCGA7o.png",
+      answer: 'Megan Fox',
+      questionNode: 'https://i.imgur.com/YWCGA7o.png',
     },
   ],
 };
 const QUASTIONS_SOUNDTRACK_1 = {
-  name: "Soundtrack 1",
+  name: 'Soundtrack 1',
   id: uuidv4(),
-  type: "iframe",
-  color: "#8B0000",
+  type: 'iframe',
+  color: '#8B0000',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "1 + 1",
+      answer: '1 + 1',
       questionNode: (
         <iframe
           width="560"
@@ -3029,7 +3029,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Interstalor",
+      answer: 'Interstalor',
       questionNode: (
         <iframe
           width="560"
@@ -3045,7 +3045,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Голодные игры",
+      answer: 'Голодные игры',
       questionNode: (
         <iframe
           width="560"
@@ -3061,7 +3061,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Snatch",
+      answer: 'Snatch',
       questionNode: (
         <iframe
           width="560"
@@ -3077,7 +3077,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Секс в большом городе",
+      answer: 'Секс в большом городе',
       questionNode: (
         <iframe
           width="560"
@@ -3093,7 +3093,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Астерикс и Обеликс",
+      answer: 'Астерикс и Обеликс',
       questionNode: (
         <iframe
           width="560"
@@ -3109,7 +3109,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ghostbusters",
+      answer: 'Ghostbusters',
       questionNode: (
         <iframe
           width="560"
@@ -3125,7 +3125,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Крестный отец",
+      answer: 'Крестный отец',
       questionNode: (
         <iframe
           width="560"
@@ -3141,7 +3141,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Хороший плохой злой",
+      answer: 'Хороший плохой злой',
       questionNode: (
         <iframe
           width="560"
@@ -3157,7 +3157,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Острые козырьки",
+      answer: 'Острые козырьки',
       questionNode: (
         <iframe
           width="560"
@@ -3174,7 +3174,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Дюна",
+      answer: 'Дюна',
       questionNode: (
         <iframe
           width="560"
@@ -3191,7 +3191,7 @@ const QUASTIONS_SOUNDTRACK_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Полицейсая академия",
+      answer: 'Полицейсая академия',
       questionNode: (
         <iframe
           width="560"
@@ -3207,15 +3207,15 @@ const QUASTIONS_SOUNDTRACK_1 = {
   ],
 };
 const MOVIES_1 = {
-  name: "Movies 1",
+  name: 'Movies 1',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF4500",
+  type: 'iframe',
+  color: '#FF4500',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Диктатор",
+      answer: 'Диктатор',
       questionNode: (
         <iframe
           width="560"
@@ -3231,7 +3231,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Warcraft",
+      answer: 'Warcraft',
       questionNode: (
         <iframe
           width="560"
@@ -3247,7 +3247,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Underworld",
+      answer: 'Underworld',
       questionNode: (
         <iframe
           width="560"
@@ -3263,7 +3263,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mad Max",
+      answer: 'Mad Max',
       questionNode: (
         <iframe
           width="560"
@@ -3279,7 +3279,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The millers",
+      answer: 'The millers',
       questionNode: (
         <iframe
           width="560"
@@ -3295,7 +3295,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Бешеные псы",
+      answer: 'Бешеные псы',
       questionNode: (
         <iframe
           width="560"
@@ -3311,7 +3311,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Люди Х",
+      answer: 'Люди Х',
       questionNode: (
         <iframe
           width="560"
@@ -3327,7 +3327,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Pulp fiction",
+      answer: 'Pulp fiction',
       questionNode: (
         <iframe
           width="560"
@@ -3343,7 +3343,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "LOTR",
+      answer: 'LOTR',
       questionNode: (
         <iframe
           width="560"
@@ -3359,7 +3359,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Укрощение строптивого",
+      answer: 'Укрощение строптивого',
       questionNode: (
         <iframe
           width="560"
@@ -3375,7 +3375,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Matrix",
+      answer: 'Matrix',
       questionNode: (
         <iframe
           width="560"
@@ -3391,7 +3391,7 @@ const MOVIES_1 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Брюс всемогущий",
+      answer: 'Брюс всемогущий',
       questionNode: (
         <iframe
           width="560"
@@ -3407,10 +3407,10 @@ const MOVIES_1 = {
   ],
 };
 const EUROVISION = {
-  name: "Eurovision countries",
+  name: 'Eurovision countries',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF1493",
+  type: 'iframe',
+  color: '#FF1493',
   list: [
     // {
     //   user: null,
@@ -3431,7 +3431,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "ITA",
+      answer: 'ITA',
       questionNode: (
         <iframe
           width="560"
@@ -3448,7 +3448,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "AUS",
+      answer: 'AUS',
       questionNode: (
         <iframe
           width="560"
@@ -3464,7 +3464,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "NOR",
+      answer: 'NOR',
       questionNode: (
         <iframe
           width="560"
@@ -3496,7 +3496,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "FIN",
+      answer: 'FIN',
       questionNode: (
         <iframe
           width="560"
@@ -3512,7 +3512,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "NED",
+      answer: 'NED',
       questionNode: (
         <iframe
           width="560"
@@ -3544,7 +3544,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "MOL",
+      answer: 'MOL',
       questionNode: (
         <iframe
           width="560"
@@ -3576,7 +3576,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "ARM",
+      answer: 'ARM',
       questionNode: (
         <iframe
           width="560"
@@ -3609,7 +3609,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "BLR",
+      answer: 'BLR',
       questionNode: (
         <iframe
           width="560"
@@ -3642,7 +3642,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "SRB",
+      answer: 'SRB',
       questionNode: (
         <iframe
           width="560"
@@ -3659,7 +3659,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "POL",
+      answer: 'POL',
       questionNode: (
         <iframe
           width="560"
@@ -3692,7 +3692,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "AZE",
+      answer: 'AZE',
       questionNode: (
         <iframe
           width="560"
@@ -3708,7 +3708,7 @@ const EUROVISION = {
     {
       user: null,
       id: uuidv4(),
-      answer: "UKR",
+      answer: 'UKR',
       questionNode: (
         <iframe
           width="560"
@@ -3724,15 +3724,15 @@ const EUROVISION = {
   ],
 };
 const SPOTIFY_FROM_2010 = {
-  name: "Spotify from 2010",
+  name: 'Spotify from 2010',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF85C1",
+  type: 'iframe',
+  color: '#FF85C1',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Ke$ha",
+      answer: 'Ke$ha',
       questionNode: (
         <iframe
           width="560"
@@ -3748,7 +3748,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Eminem Rihanna",
+      answer: 'Eminem Rihanna',
       questionNode: (
         <iframe
           width="560"
@@ -3764,7 +3764,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jessie J - Price Tag ft. B.o.B",
+      answer: 'Jessie J - Price Tag ft. B.o.B',
       questionNode: (
         <iframe
           width="560"
@@ -3780,7 +3780,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock",
+      answer: 'LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock',
       questionNode: (
         <iframe
           width="560"
@@ -3796,7 +3796,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Maroon 5 - One More Night",
+      answer: 'Maroon 5 - One More Night',
       questionNode: (
         <iframe
           width="560"
@@ -3812,7 +3812,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PINK",
+      answer: 'PINK',
       questionNode: (
         <iframe
           width="560"
@@ -3828,7 +3828,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Miley Cyrus - Wrecking Ball",
+      answer: 'Miley Cyrus - Wrecking Ball',
       questionNode: (
         <iframe
           width="560"
@@ -3844,7 +3844,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Taylor Swift - Shake It Off",
+      answer: 'Taylor Swift - Shake It Off',
       questionNode: (
         <iframe
           width="560"
@@ -3860,7 +3860,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ed Sheeran - Shape of You",
+      answer: 'Ed Sheeran - Shape of You',
       questionNode: (
         <iframe
           width="560"
@@ -3876,7 +3876,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ariana Grande - 7 rings",
+      answer: 'Ariana Grande - 7 rings',
       questionNode: (
         <iframe
           width="560"
@@ -3892,7 +3892,7 @@ const SPOTIFY_FROM_2010 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Kid LAROI, Justin Bieber - STAY",
+      answer: 'The Kid LAROI, Justin Bieber - STAY',
       questionNode: (
         <iframe
           width="560"
@@ -3924,15 +3924,15 @@ const SPOTIFY_FROM_2010 = {
   ],
 };
 const METAL_2 = {
-  name: "Metal childhood 2",
+  name: 'Metal childhood 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#0000FF",
+  type: 'iframe',
+  color: '#0000FF',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Papa Roach - Scars",
+      answer: 'Papa Roach - Scars',
       questionNode: (
         <iframe
           width="560"
@@ -3948,7 +3948,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Evanescence - Bring Me To Life",
+      answer: 'Evanescence - Bring Me To Life',
       questionNode: (
         <iframe
           width="560"
@@ -3964,7 +3964,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "P.O.D. - Youth of the Nation",
+      answer: 'P.O.D. - Youth of the Nation',
       questionNode: (
         <iframe
           width="560"
@@ -3980,7 +3980,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Linkin Park - Numb",
+      answer: 'Linkin Park - Numb',
       questionNode: (
         <iframe
           width="560"
@@ -3996,7 +3996,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Disturbed - Prayer",
+      answer: 'Disturbed - Prayer',
       questionNode: (
         <iframe
           width="560"
@@ -4012,7 +4012,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Limp Bizkit - Lonely World",
+      answer: 'Limp Bizkit - Lonely World',
       questionNode: (
         <iframe
           width="560"
@@ -4028,7 +4028,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Drowning Pool - Sinner",
+      answer: 'Drowning Pool - Sinner',
       questionNode: (
         <iframe
           width="560"
@@ -4044,7 +4044,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rammstein - Engel",
+      answer: 'Rammstein - Engel',
       questionNode: (
         <iframe
           width="560"
@@ -4060,7 +4060,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Slipknot - Wait And Bleed",
+      answer: 'Slipknot - Wait And Bleed',
       questionNode: (
         <iframe
           width="560"
@@ -4076,7 +4076,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ill Nino - What You Deserve",
+      answer: 'Ill Nino - What You Deserve',
       questionNode: (
         <iframe
           width="560"
@@ -4092,7 +4092,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Within Temptation - Angels",
+      answer: 'Within Temptation - Angels',
       questionNode: (
         <iframe
           width="560"
@@ -4108,7 +4108,7 @@ const METAL_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Cradle Of Filth - Nymphetamine ",
+      answer: 'Cradle Of Filth - Nymphetamine ',
       questionNode: (
         <iframe
           width="560"
@@ -4124,15 +4124,15 @@ const METAL_2 = {
   ],
 };
 const METAL_HARD = {
-  name: "METAL HARD",
+  name: 'METAL HARD',
   id: uuidv4(),
-  type: "iframe",
-  color: "#4169E1",
+  type: 'iframe',
+  color: '#4169E1',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "ARCH ENEMY - Nemesis",
+      answer: 'ARCH ENEMY - Nemesis',
       questionNode: (
         <iframe
           width="560"
@@ -4148,7 +4148,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Amon Amarth",
+      answer: 'Amon Amarth',
       questionNode: (
         <iframe
           width="560"
@@ -4164,7 +4164,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Clawfinger - Two Sides",
+      answer: 'Clawfinger - Two Sides',
       questionNode: (
         <iframe
           width="560"
@@ -4180,7 +4180,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Marilyn Manson",
+      answer: 'Marilyn Manson',
       questionNode: (
         <iframe
           width="560"
@@ -4196,7 +4196,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rob Zombie",
+      answer: 'Rob Zombie',
       questionNode: (
         <iframe
           width="560"
@@ -4212,7 +4212,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "HÄMATOM - Es regnet Bier",
+      answer: 'HÄMATOM - Es regnet Bier',
       questionNode: (
         <iframe
           width="560"
@@ -4228,7 +4228,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Deathklok",
+      answer: 'Deathklok',
       questionNode: (
         <iframe
           width="560"
@@ -4254,7 +4254,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Turmion Kätilöt",
+      answer: 'Turmion Kätilöt',
       questionNode: (
         <iframe
           width="560"
@@ -4286,7 +4286,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Hollywood Undead",
+      answer: 'Hollywood Undead',
       questionNode: (
         <iframe
           width="560"
@@ -4302,7 +4302,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Omut",
+      answer: 'Omut',
       questionNode: (
         <iframe
           width="560"
@@ -4318,7 +4318,7 @@ const METAL_HARD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Korpiklaani",
+      answer: 'Korpiklaani',
       questionNode: (
         <iframe
           width="560"
@@ -4350,15 +4350,15 @@ const METAL_HARD = {
   ],
 };
 const X90 = {
-  name: "90s 1",
+  name: '90s 1',
   id: uuidv4(),
-  type: "iframe",
-  color: "#228B22",
+  type: 'iframe',
+  color: '#228B22',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Alex C., Yass",
+      answer: 'Alex C., Yass',
       questionNode: (
         <iframe
           width="560"
@@ -4374,7 +4374,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sting",
+      answer: 'Sting',
       questionNode: (
         <iframe
           width="560"
@@ -4390,7 +4390,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Lou Bega",
+      answer: 'Lou Bega',
       questionNode: (
         <iframe
           width="560"
@@ -4406,7 +4406,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Aqua",
+      answer: 'Aqua',
       questionNode: (
         <iframe
           width="560"
@@ -4422,7 +4422,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "R.E.M.",
+      answer: 'R.E.M.',
       questionNode: (
         <iframe
           width="560"
@@ -4438,7 +4438,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Verve",
+      answer: 'The Verve',
       questionNode: (
         <iframe
           width="560"
@@ -4454,7 +4454,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Britney Spears",
+      answer: 'Britney Spears',
       questionNode: (
         <iframe
           width="560"
@@ -4470,7 +4470,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Haddaway",
+      answer: 'Haddaway',
       questionNode: (
         <iframe
           width="560"
@@ -4486,7 +4486,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bon Jovi",
+      answer: 'Bon Jovi',
       questionNode: (
         <iframe
           width="560"
@@ -4502,7 +4502,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mr.President",
+      answer: 'Mr.President',
       questionNode: (
         <iframe
           width="560"
@@ -4518,7 +4518,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Aerosmith",
+      answer: 'Aerosmith',
       questionNode: (
         <iframe
           width="560"
@@ -4534,7 +4534,7 @@ const X90 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dido",
+      answer: 'Dido',
       questionNode: (
         <iframe
           width="560"
@@ -4550,15 +4550,15 @@ const X90 = {
   ],
 };
 const OLDOLD = {
-  name: "Old Mix",
+  name: 'Old Mix',
   id: uuidv4(),
-  type: "iframe",
-  color: "#106140",
+  type: 'iframe',
+  color: '#106140',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Modern Talking",
+      answer: 'Modern Talking',
       questionNode: (
         <iframe
           width="560"
@@ -4574,7 +4574,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Whitney Houston",
+      answer: 'Whitney Houston',
       questionNode: (
         <iframe
           width="560"
@@ -4590,7 +4590,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Police",
+      answer: 'The Police',
       questionNode: (
         <iframe
           width="560"
@@ -4606,7 +4606,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Kansas",
+      answer: 'Kansas',
       questionNode: (
         <iframe
           width="560"
@@ -4622,7 +4622,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "E-rotic",
+      answer: 'E-rotic',
       questionNode: (
         <iframe
           width="560"
@@ -4638,7 +4638,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Phil Collins",
+      answer: 'Phil Collins',
       questionNode: (
         <iframe
           width="560"
@@ -4654,7 +4654,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jefferson Airplane",
+      answer: 'Jefferson Airplane',
       questionNode: (
         <iframe
           width="560"
@@ -4670,7 +4670,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Warlock",
+      answer: 'Warlock',
       questionNode: (
         <iframe
           width="560"
@@ -4686,7 +4686,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "ABBA",
+      answer: 'ABBA',
       questionNode: (
         <iframe
           width="560"
@@ -4702,7 +4702,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "A Touch Of Class",
+      answer: 'A Touch Of Class',
       questionNode: (
         <iframe
           width="560"
@@ -4718,7 +4718,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bonney M",
+      answer: 'Bonney M',
       questionNode: (
         <iframe
           width="560"
@@ -4735,7 +4735,7 @@ const OLDOLD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "George Michael",
+      answer: 'George Michael',
       questionNode: (
         <iframe
           width="560"
@@ -4751,15 +4751,15 @@ const OLDOLD = {
   ],
 };
 const X902 = {
-  name: "90s 2",
+  name: '90s 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#10a510",
+  type: 'iframe',
+  color: '#10a510',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Puff Daddy",
+      answer: 'Puff Daddy',
       questionNode: (
         <iframe
           width="560"
@@ -4775,7 +4775,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Enrique Iglesias",
+      answer: 'Enrique Iglesias',
       questionNode: (
         <iframe
           width="560"
@@ -4791,7 +4791,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shania Twain",
+      answer: 'Shania Twain',
       questionNode: (
         <iframe
           width="560"
@@ -4807,7 +4807,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Toni Braxton",
+      answer: 'Toni Braxton',
       questionNode: (
         <iframe
           width="560"
@@ -4823,7 +4823,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Michael Jackson",
+      answer: 'Michael Jackson',
       questionNode: (
         <iframe
           width="560"
@@ -4839,7 +4839,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Scatman John",
+      answer: 'Scatman John',
       questionNode: (
         <iframe
           width="560"
@@ -4855,7 +4855,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Corona - The Rhythm of the Night",
+      answer: 'Corona - The Rhythm of the Night',
       questionNode: (
         <iframe
           width="560"
@@ -4871,7 +4871,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mariah Carey - All I Want for Christmas Is You",
+      answer: 'Mariah Carey - All I Want for Christmas Is You',
       questionNode: (
         <iframe
           width="560"
@@ -4887,7 +4887,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rednex",
+      answer: 'Rednex',
       questionNode: (
         <iframe
           width="560"
@@ -4903,7 +4903,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Chumbawamba",
+      answer: 'Chumbawamba',
       questionNode: (
         <iframe
           width="560"
@@ -4919,7 +4919,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Cardigans",
+      answer: 'The Cardigans',
       questionNode: (
         <iframe
           width="560"
@@ -4935,7 +4935,7 @@ const X902 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Duran Duran",
+      answer: 'Duran Duran',
       questionNode: (
         <iframe
           width="560"
@@ -4951,15 +4951,15 @@ const X902 = {
   ],
 };
 const POPROCK = {
-  name: "Rock 2",
+  name: 'Rock 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#87CEFA",
+  type: 'iframe',
+  color: '#87CEFA',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Smash Mouth - All Star",
+      answer: 'Smash Mouth - All Star',
       questionNode: (
         <iframe
           width="560"
@@ -4975,7 +4975,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "RHCP",
+      answer: 'RHCP',
       questionNode: (
         <iframe
           width="560"
@@ -4991,7 +4991,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sum 41",
+      answer: 'Sum 41',
       questionNode: (
         <iframe
           width="560"
@@ -5007,7 +5007,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Rasmus",
+      answer: 'The Rasmus',
       questionNode: (
         <iframe
           width="560"
@@ -5023,7 +5023,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Billy Talent ",
+      answer: 'Billy Talent ',
       questionNode: (
         <iframe
           width="560"
@@ -5039,7 +5039,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Liquido",
+      answer: 'Liquido',
       questionNode: (
         <iframe
           width="560"
@@ -5055,7 +5055,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Foo Fighters",
+      answer: 'Foo Fighters',
       questionNode: (
         <iframe
           width="560"
@@ -5071,7 +5071,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Three Days Grace",
+      answer: 'Three Days Grace',
       questionNode: (
         <iframe
           width="560"
@@ -5087,7 +5087,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Spiderbait",
+      answer: 'Spiderbait',
       questionNode: (
         <iframe
           width="560"
@@ -5103,7 +5103,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Muse",
+      answer: 'Muse',
       questionNode: (
         <iframe
           width="560"
@@ -5119,7 +5119,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The White Stripes",
+      answer: 'The White Stripes',
       questionNode: (
         <iframe
           width="560"
@@ -5135,7 +5135,7 @@ const POPROCK = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bloodhound Gang",
+      answer: 'Bloodhound Gang',
       questionNode: (
         <iframe
           width="560"
@@ -5151,15 +5151,15 @@ const POPROCK = {
   ],
 };
 const LANG = {
-  name: "language",
+  name: 'language',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FFFF00",
+  type: 'iframe',
+  color: '#FFFF00',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Georgian",
+      answer: 'Georgian',
       questionNode: (
         <iframe
           width="560"
@@ -5175,7 +5175,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Suomi",
+      answer: 'Suomi',
       questionNode: (
         <iframe
           width="560"
@@ -5191,7 +5191,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "English",
+      answer: 'English',
       questionNode: (
         <iframe
           width="560"
@@ -5225,7 +5225,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Español",
+      answer: 'Español',
       questionNode: (
         <iframe
           width="560"
@@ -5241,7 +5241,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ukraine",
+      answer: 'Ukraine',
       questionNode: (
         <iframe
           width="560"
@@ -5257,7 +5257,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Greece",
+      answer: 'Greece',
       questionNode: (
         <iframe
           width="560"
@@ -5273,7 +5273,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Belarus",
+      answer: 'Belarus',
       questionNode: (
         <iframe
           width="560"
@@ -5289,7 +5289,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mongol",
+      answer: 'Mongol',
       questionNode: (
         <iframe
           width="560"
@@ -5305,7 +5305,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Polski",
+      answer: 'Polski',
       questionNode: (
         <iframe
           width="560"
@@ -5321,7 +5321,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bulgarian",
+      answer: 'Bulgarian',
       questionNode: (
         <iframe
           width="560"
@@ -5337,7 +5337,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "China",
+      answer: 'China',
       questionNode: (
         <iframe
           width="560"
@@ -5353,7 +5353,7 @@ const LANG = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Turkey",
+      answer: 'Turkey',
       questionNode: (
         <iframe
           width="560"
@@ -5369,15 +5369,15 @@ const LANG = {
   ],
 };
 const MOVIES_2 = {
-  name: "Movies 2",
+  name: 'Movies 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF6347",
+  type: 'iframe',
+  color: '#FF6347',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Robocop",
+      answer: 'Robocop',
       questionNode: (
         <iframe
           width="560"
@@ -5393,7 +5393,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Пираты карибского моря",
+      answer: 'Пираты карибского моря',
       questionNode: (
         <iframe
           width="560"
@@ -5409,7 +5409,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Игра престолов",
+      answer: 'Игра престолов',
       questionNode: (
         <iframe
           width="560"
@@ -5426,7 +5426,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Троя",
+      answer: 'Троя',
       questionNode: (
         <iframe
           width="560"
@@ -5442,7 +5442,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Леон",
+      answer: 'Леон',
       questionNode: (
         <iframe
           width="560"
@@ -5459,7 +5459,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Молчание ягнят",
+      answer: 'Молчание ягнят',
       questionNode: (
         <iframe
           width="560"
@@ -5475,7 +5475,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Зеленая миля",
+      answer: 'Зеленая миля',
       questionNode: (
         <iframe
           width="560"
@@ -5491,7 +5491,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Красная жара",
+      answer: 'Красная жара',
       questionNode: (
         <iframe
           width="560"
@@ -5507,7 +5507,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Мальчишник в вегасе",
+      answer: 'Мальчишник в вегасе',
       questionNode: (
         <iframe
           width="560"
@@ -5523,7 +5523,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Темный рыцарь",
+      answer: 'Темный рыцарь',
       questionNode: (
         <iframe
           width="560"
@@ -5539,7 +5539,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Голодные игры",
+      answer: 'Голодные игры',
       questionNode: (
         <iframe
           width="560"
@@ -5555,7 +5555,7 @@ const MOVIES_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "пятый элемент",
+      answer: 'пятый элемент',
       questionNode: (
         <iframe
           width="560"
@@ -5571,15 +5571,15 @@ const MOVIES_2 = {
   ],
 };
 const X2000_2010_2 = {
-  name: "2000s 2",
+  name: '2000s 2',
   id: uuidv4(),
-  type: "iframe",
-  color: "#98FF98",
+  type: 'iframe',
+  color: '#98FF98',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Flo Rida - Low",
+      answer: 'Flo Rida - Low',
       questionNode: (
         <iframe
           width="560"
@@ -5595,7 +5595,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Madcon",
+      answer: 'Madcon',
       questionNode: (
         <iframe
           width="560"
@@ -5611,7 +5611,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Black Eyed Peas - Pump It ",
+      answer: 'The Black Eyed Peas - Pump It ',
       questionNode: (
         <iframe
           width="560"
@@ -5627,7 +5627,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Evanescence",
+      answer: 'Evanescence',
       questionNode: (
         <iframe
           width="560"
@@ -5643,7 +5643,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Beyoncé",
+      answer: 'Beyoncé',
       questionNode: (
         <iframe
           width="560"
@@ -5659,7 +5659,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "P!nk - Get The Party Started",
+      answer: 'P!nk - Get The Party Started',
       questionNode: (
         <iframe
           width="560"
@@ -5675,7 +5675,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "System Of A Down",
+      answer: 'System Of A Down',
       questionNode: (
         <iframe
           width="560"
@@ -5691,7 +5691,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Usher - Yeah! (Official Video) ft. Lil Jon, Ludacris",
+      answer: 'Usher - Yeah! (Official Video) ft. Lil Jon, Ludacris',
       questionNode: (
         <iframe
           width="560"
@@ -5707,7 +5707,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Kanye West Duft Punk- Stronger",
+      answer: 'Kanye West Duft Punk- Stronger',
       questionNode: (
         <iframe
           width="560"
@@ -5723,7 +5723,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rammstein - Keine Lust",
+      answer: 'Rammstein - Keine Lust',
       questionNode: (
         <iframe
           width="560"
@@ -5739,7 +5739,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Madonna - Hung Up ",
+      answer: 'Madonna - Hung Up ',
       questionNode: (
         <iframe
           width="560"
@@ -5755,7 +5755,7 @@ const X2000_2010_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "JAY-Z - Empire State Of Mind ft. Alicia Keys",
+      answer: 'JAY-Z - Empire State Of Mind ft. Alicia Keys',
       questionNode: (
         <iframe
           width="560"
@@ -5771,15 +5771,15 @@ const X2000_2010_2 = {
   ],
 };
 const X2000_2010_3 = {
-  name: "2000s 3",
+  name: '2000s 3',
   id: uuidv4(),
-  type: "iframe",
-  color: "#C1FFC1",
+  type: 'iframe',
+  color: '#C1FFC1',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Outkast - Hey Ya! ",
+      answer: 'Outkast - Hey Ya! ',
       questionNode: (
         <iframe
           width="560"
@@ -5796,7 +5796,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Poker Face",
+      answer: 'Poker Face',
       questionNode: (
         <iframe
           width="560"
@@ -5828,7 +5828,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Metallica - The Day That Never Comes",
+      answer: 'Metallica - The Day That Never Comes',
       questionNode: (
         <iframe
           width="560"
@@ -5844,7 +5844,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Coldplay - Clocks",
+      answer: 'Coldplay - Clocks',
       questionNode: (
         <iframe
           width="560"
@@ -5860,7 +5860,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nelly Furtado - Say It Right",
+      answer: 'Nelly Furtado - Say It Right',
       questionNode: (
         <iframe
           width="560"
@@ -5876,7 +5876,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Daddy Yankee",
+      answer: 'Daddy Yankee',
       questionNode: (
         <iframe
           width="560"
@@ -5892,7 +5892,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Killers - Mr. Brightside",
+      answer: 'The Killers - Mr. Brightside',
       questionNode: (
         <iframe
           width="560"
@@ -5909,7 +5909,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Queens Of The Stone Age - No One Knows",
+      answer: 'Queens Of The Stone Age - No One Knows',
       questionNode: (
         <iframe
           width="560"
@@ -5925,7 +5925,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna - Umbrella (Orange Version) (Official Music Video) ft. JAY-Z",
+      answer: 'Rihanna - Umbrella (Orange Version) (Official Music Video) ft. JAY-Z',
       questionNode: (
         <iframe
           width="560"
@@ -5941,7 +5941,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Gorillaz - Feel Good Inc.",
+      answer: 'Gorillaz - Feel Good Inc.',
       questionNode: (
         <iframe
           width="560"
@@ -5957,7 +5957,7 @@ const X2000_2010_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Akon - Smack That (Official Music Video) ft. Eminem",
+      answer: 'Akon - Smack That (Official Music Video) ft. Eminem',
       questionNode: (
         <iframe
           width="560"
@@ -5973,15 +5973,15 @@ const X2000_2010_3 = {
   ],
 };
 const RANDOM = {
-  name: "Random",
+  name: 'Random',
   id: uuidv4(),
-  type: "iframe",
-  color: "#E6E6FA",
+  type: 'iframe',
+  color: '#E6E6FA',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "A Day To Remember ",
+      answer: 'A Day To Remember ',
       questionNode: (
         <iframe
           width="560"
@@ -5997,7 +5997,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Bring Me The Horizon - Can You Feel My Heart",
+      answer: 'Bring Me The Horizon - Can You Feel My Heart',
       questionNode: (
         <iframe
           width="560"
@@ -6013,7 +6013,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Taylor Swift - Blank Space",
+      answer: 'Taylor Swift - Blank Space',
       questionNode: (
         <iframe
           width="560"
@@ -6029,7 +6029,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Papa Roach - Between Angels And Insects",
+      answer: 'Papa Roach - Between Angels And Insects',
       questionNode: (
         <iframe
           width="560"
@@ -6061,7 +6061,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Fall Out Boy - Thnks fr th Mmrs",
+      answer: 'Fall Out Boy - Thnks fr th Mmrs',
       questionNode: (
         <iframe
           width="560"
@@ -6077,7 +6077,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dua Lipa - New Rules",
+      answer: 'Dua Lipa - New Rules',
       questionNode: (
         <iframe
           width="560"
@@ -6093,7 +6093,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Käärijä - Huhhahhei",
+      answer: 'Käärijä - Huhhahhei',
       questionNode: (
         <iframe
           width="560"
@@ -6110,7 +6110,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Skillet - Hero",
+      answer: 'Skillet - Hero',
       questionNode: (
         <iframe
           width="560"
@@ -6126,7 +6126,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Doja Cat - Paint The Town Red",
+      answer: 'Doja Cat - Paint The Town Red',
       questionNode: (
         <iframe
           width="560"
@@ -6142,7 +6142,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Limp Bizkit - Break Stuff",
+      answer: 'Limp Bizkit - Break Stuff',
       questionNode: (
         <iframe
           width="560"
@@ -6158,7 +6158,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rihanna - Where Have You Been",
+      answer: 'Rihanna - Where Have You Been',
       questionNode: (
         <iframe
           width="560"
@@ -6174,7 +6174,7 @@ const RANDOM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Linkin Park",
+      answer: 'Linkin Park',
       questionNode: (
         <iframe
           width="560"
@@ -6190,15 +6190,15 @@ const RANDOM = {
   ],
 };
 const RAP = {
-  name: "H-H/Rap/RnB",
+  name: 'H-H/Rap/RnB',
   id: uuidv4(),
-  type: "iframe",
-  color: "black",
+  type: 'iframe',
+  color: 'black',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "The Black Eyed Peas - My Humps",
+      answer: 'The Black Eyed Peas - My Humps',
       questionNode: (
         <iframe
           width="560"
@@ -6214,7 +6214,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Нестандартный вариант",
+      answer: 'Нестандартный вариант',
       questionNode: (
         <iframe
           width="560"
@@ -6246,7 +6246,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "KALUSH feat Skofka - Додому",
+      answer: 'KALUSH feat Skofka - Додому',
       questionNode: (
         <iframe
           width="560"
@@ -6262,7 +6262,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Eminem - The Real Slim Shady ",
+      answer: 'Eminem - The Real Slim Shady ',
       questionNode: (
         <iframe
           width="560"
@@ -6278,7 +6278,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Nelly - Dilemma",
+      answer: 'Nelly - Dilemma',
       questionNode: (
         <iframe
           width="560"
@@ -6294,7 +6294,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Грибы - тает лёд",
+      answer: 'Грибы - тает лёд',
       questionNode: (
         <iframe
           width="560"
@@ -6310,7 +6310,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dr. Dre - The Next Episode (Official Music Video) ft. Snoop Dogg, Kurupt, Nate Dogg",
+      answer: 'Dr. Dre - The Next Episode (Official Music Video) ft. Snoop Dogg, Kurupt, Nate Dogg',
       questionNode: (
         <iframe
           width="560"
@@ -6326,7 +6326,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "50 Cent - P.I.M.P. (Snoop Dogg Remix) ft. Snoop Dogg, G-Unit",
+      answer: '50 Cent - P.I.M.P. (Snoop Dogg Remix) ft. Snoop Dogg, G-Unit',
       questionNode: (
         <iframe
           width="560"
@@ -6342,7 +6342,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Макс Корж - Горы по колено",
+      answer: 'Макс Корж - Горы по колено',
       questionNode: (
         <iframe
           width="560"
@@ -6374,7 +6374,7 @@ const RAP = {
     {
       user: null,
       id: uuidv4(),
-      answer: "M.C. Hammer",
+      answer: 'M.C. Hammer',
       questionNode: (
         <iframe
           width="560"
@@ -6390,10 +6390,10 @@ const RAP = {
   ],
 };
 const TOP_SPOTIFY_2000 = {
-  name: "spotify 2000",
+  name: 'spotify 2000',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FF69B4",
+  type: 'iframe',
+  color: '#FF69B4',
   list: [
     {
       user: null,
@@ -6414,7 +6414,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "blink-182 - All The Small Things",
+      answer: 'blink-182 - All The Small Things',
       questionNode: (
         <iframe
           width="560"
@@ -6430,7 +6430,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Melanie C - I Turn To You",
+      answer: 'Melanie C - I Turn To You',
       questionNode: (
         <iframe
           width="560"
@@ -6446,7 +6446,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Alizée - Moi... Lolita",
+      answer: 'Alizée - Moi... Lolita',
       questionNode: (
         <iframe
           width="560"
@@ -6462,7 +6462,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Modjo - Lady",
+      answer: 'Modjo - Lady',
       questionNode: (
         <iframe
           width="560"
@@ -6478,7 +6478,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Backstreet Boys - Shape Of My Heart",
+      answer: 'Backstreet Boys - Shape Of My Heart',
       questionNode: (
         <iframe
           width="560"
@@ -6494,7 +6494,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Madonna - Music",
+      answer: 'Madonna - Music',
       questionNode: (
         <iframe
           width="560"
@@ -6510,7 +6510,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Baha Men - Who Let The Dogs Out ",
+      answer: 'Baha Men - Who Let The Dogs Out ',
       questionNode: (
         <iframe
           width="560"
@@ -6526,7 +6526,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "LeAnn Rimes - Cant Fight The Moonlight",
+      answer: 'LeAnn Rimes - Cant Fight The Moonlight',
       questionNode: (
         <iframe
           width="560"
@@ -6542,7 +6542,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Melanie C - Never Be The Same Again",
+      answer: 'Melanie C - Never Be The Same Again',
       questionNode: (
         <iframe
           width="560"
@@ -6558,7 +6558,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Foster The People - Pumped Up Kicks",
+      answer: 'Foster The People - Pumped Up Kicks',
       questionNode: (
         <iframe
           width="560"
@@ -6574,7 +6574,7 @@ const TOP_SPOTIFY_2000 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Eminem - Lose Yourself",
+      answer: 'Eminem - Lose Yourself',
       questionNode: (
         <iframe
           width="560"
@@ -6590,15 +6590,15 @@ const TOP_SPOTIFY_2000 = {
   ],
 };
 const DANCE = {
-  name: "Dance",
+  name: 'Dance',
   id: uuidv4(),
-  type: "iframe",
-  color: "#FFC0CB",
+  type: 'iframe',
+  color: '#FFC0CB',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Scooter - How Much Is The Fish? ",
+      answer: 'Scooter - How Much Is The Fish? ',
       questionNode: (
         <iframe
           width="560"
@@ -6630,7 +6630,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Canción Del Mariachi - Antonio Banderas, Los Lobos • Desperado",
+      answer: 'Canción Del Mariachi - Antonio Banderas, Los Lobos • Desperado',
       questionNode: (
         <iframe
           width="560"
@@ -6646,7 +6646,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Las Ketchup - The Ketchup Song",
+      answer: 'Las Ketchup - The Ketchup Song',
       questionNode: (
         <iframe
           width="560"
@@ -6662,7 +6662,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Shakira - Ojos Así",
+      answer: 'Shakira - Ojos Así',
       questionNode: (
         <iframe
           width="560"
@@ -6678,7 +6678,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Chemical Brothers",
+      answer: 'The Chemical Brothers',
       questionNode: (
         <iframe
           width="560"
@@ -6694,7 +6694,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Mark Ronson - Uptown Funk",
+      answer: 'Mark Ronson - Uptown Funk',
       questionNode: (
         <iframe
           width="560"
@@ -6710,7 +6710,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PSY - GANGNAM STYLE",
+      answer: 'PSY - GANGNAM STYLE',
       questionNode: (
         <iframe
           width="560"
@@ -6726,7 +6726,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Go_A - ШУМ",
+      answer: 'Go_A - ШУМ',
       questionNode: (
         <iframe
           width="560"
@@ -6742,7 +6742,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "The Prodigy - Smack My Bitch Up",
+      answer: 'The Prodigy - Smack My Bitch Up',
       questionNode: (
         <iframe
           width="560"
@@ -6758,7 +6758,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Zdob si Zdub - Видели ночь",
+      answer: 'Zdob si Zdub - Видели ночь',
       questionNode: (
         <iframe
           width="560"
@@ -6774,7 +6774,7 @@ const DANCE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "LMFAO - Sexy and I Know It",
+      answer: 'LMFAO - Sexy and I Know It',
       questionNode: (
         <iframe
           width="560"
@@ -6790,15 +6790,15 @@ const DANCE = {
   ],
 };
 const QUASTIONS_BELARUS = {
-  name: "Belarus лёгкае",
+  name: 'Belarus лёгкае',
   id: uuidv4(),
-  type: "iframe",
-  color: "#4B0082",
+  type: 'iframe',
+  color: '#4B0082',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Крамбамбуля - З новым Годам",
+      answer: 'Крамбамбуля - З новым Годам',
       questionNode: (
         <iframe
           width="560"
@@ -6813,7 +6813,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Леприконсы - Хали Гали",
+      answer: 'Леприконсы - Хали Гали',
       questionNode: (
         <iframe
           width="560"
@@ -6827,7 +6827,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Песняры - касіў ясь канюшыну",
+      answer: 'Песняры - касіў ясь канюшыну',
       questionNode: (
         <iframe
           width="560"
@@ -6842,7 +6842,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "NAVIBAND - ІНШЫМІ",
+      answer: 'NAVIBAND - ІНШЫМІ',
       questionNode: (
         <iframe
           width="560"
@@ -6857,7 +6857,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Стары Ольса - Песня а князю Вітаўце",
+      answer: 'Стары Ольса - Песня а князю Вітаўце',
       questionNode: (
         <iframe
           width="560"
@@ -6874,7 +6874,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Песняры - Пагоня",
+      answer: 'Песняры - Пагоня',
       questionNode: (
         <iframe
           width="560"
@@ -6891,7 +6891,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ляпис Трубецкой - Зорачкi",
+      answer: 'Ляпис Трубецкой - Зорачкi',
       questionNode: (
         <iframe
           width="560"
@@ -6906,7 +6906,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Dzieciuki — Прадаецца краіна",
+      answer: 'Dzieciuki — Прадаецца краіна',
       questionNode: (
         <iframe
           width="560"
@@ -6924,7 +6924,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PAWA - Гандзюленька (feat. Testamentum Terrae)",
+      answer: 'PAWA - Гандзюленька (feat. Testamentum Terrae)',
       questionNode: (
         <iframe
           width="560"
@@ -6941,7 +6941,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "NRM - простыя словы",
+      answer: 'NRM - простыя словы',
       questionNode: (
         <iframe
           width="560"
@@ -6958,7 +6958,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ксения Ситник (Meghan Trainor Cover)",
+      answer: 'Ксения Ситник (Meghan Trainor Cover)',
       questionNode: (
         <iframe
           width="560"
@@ -6975,7 +6975,7 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: "NIZKIZ - Небяспечна",
+      answer: 'NIZKIZ - Небяспечна',
       questionNode: (
         <iframe
           width="560"
@@ -6992,15 +6992,15 @@ const QUASTIONS_BELARUS = {
   ],
 };
 const QUASTIONS_BELARUS_2 = {
-  name: "Belarus цяжкае",
+  name: 'Belarus цяжкае',
   id: uuidv4(),
-  type: "iframe",
-  color: "#6A0DAD",
+  type: 'iframe',
+  color: '#6A0DAD',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Arcanum - Таямніца часу",
+      answer: 'Arcanum - Таямніца часу',
       questionNode: (
         <iframe
           width="560"
@@ -7017,7 +7017,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Дрыгва - Святочная",
+      answer: 'Дрыгва - Святочная',
       questionNode: (
         <iframe
           width="560"
@@ -7034,7 +7034,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Sciana - Ya Edu",
+      answer: 'Sciana - Ya Edu',
       questionNode: (
         <iframe
           width="560"
@@ -7051,7 +7051,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Дай Дарогу! - Баю Бай 2020",
+      answer: 'Дай Дарогу! - Баю Бай 2020',
       questionNode: (
         <iframe
           width="560"
@@ -7066,7 +7066,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Гузiк гр Нейро",
+      answer: 'Гузiк гр Нейро',
       questionNode: (
         <iframe
           width="560"
@@ -7083,7 +7083,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Wartha - Ziamla",
+      answer: 'Wartha - Ziamla',
       questionNode: (
         <iframe
           width="560"
@@ -7100,7 +7100,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Znich - Дунаю",
+      answer: 'Znich - Дунаю',
       questionNode: (
         <iframe
           width="560"
@@ -7117,7 +7117,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Глюкі - Птушкі",
+      answer: 'Глюкі - Птушкі',
       questionNode: (
         <iframe
           width="560"
@@ -7134,7 +7134,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Irdorath - VAUKALAK",
+      answer: 'Irdorath - VAUKALAK',
       questionNode: (
         <iframe
           width="560"
@@ -7151,7 +7151,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Litvintroll - Da Siabra",
+      answer: 'Litvintroll - Da Siabra',
       questionNode: (
         <iframe
           width="560"
@@ -7168,7 +7168,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "ТТ34 - Дом который построил Джек",
+      answer: 'ТТ34 - Дом который построил Джек',
       questionNode: (
         <iframe
           width="560"
@@ -7185,7 +7185,7 @@ const QUASTIONS_BELARUS_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Rasta",
+      answer: 'Rasta',
       questionNode: (
         <iframe
           width="560"
@@ -7202,15 +7202,15 @@ const QUASTIONS_BELARUS_2 = {
   ],
 };
 const QUASTIONS_UKRAINE = {
-  name: "Ukraine",
+  name: 'Ukraine',
   id: uuidv4(),
-  type: "iframe",
-  color: "#9370DB",
+  type: 'iframe',
+  color: '#9370DB',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "YARMAK FT. ALISA",
+      answer: 'YARMAK FT. ALISA',
       questionNode: (
         <iframe
           width="560"
@@ -7227,7 +7227,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Ruslaa - Wild Dances",
+      answer: 'Ruslaa - Wild Dances',
       questionNode: (
         <iframe
           width="560"
@@ -7241,7 +7241,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Воплі Відоплясова - ВЕСНА",
+      answer: 'Воплі Відоплясова - ВЕСНА',
       questionNode: (
         <iframe
           width="560"
@@ -7255,7 +7255,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Верка Сердючка - Ще Не Вмерла Украина",
+      answer: 'Верка Сердючка - Ще Не Вмерла Украина',
       questionNode: (
         <iframe
           width="560"
@@ -7269,7 +7269,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "THE HARDKISS feat. MONATIK - Кобра",
+      answer: 'THE HARDKISS feat. MONATIK - Кобра',
       questionNode: (
         <iframe
           width="560"
@@ -7283,7 +7283,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Океан Ельзи - Там, де нас нема",
+      answer: 'Океан Ельзи - Там, де нас нема',
       questionNode: (
         <iframe
           width="560"
@@ -7297,7 +7297,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Бумбокс - Ой у лузі червона калина",
+      answer: 'Бумбокс - Ой у лузі червона калина',
       questionNode: (
         <iframe
           width="560"
@@ -7311,7 +7311,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Червона рута",
+      answer: 'Червона рута',
       questionNode: (
         <iframe
           width="560"
@@ -7328,7 +7328,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "PROBASS ∆ HARDI - ДОБРОГО ВЕЧОРА",
+      answer: 'PROBASS ∆ HARDI - ДОБРОГО ВЕЧОРА',
       questionNode: (
         <iframe
           width="560"
@@ -7345,7 +7345,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "DOROFEEVA - Кохаю, але не зовсім",
+      answer: 'DOROFEEVA - Кохаю, але не зовсім',
       questionNode: (
         <iframe
           width="560"
@@ -7362,7 +7362,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Jamala - 1944",
+      answer: 'Jamala - 1944',
       questionNode: (
         <iframe
           width="560"
@@ -7379,7 +7379,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Скрябін - Коломийки",
+      answer: 'Скрябін - Коломийки',
       questionNode: (
         <iframe
           width="560"
@@ -7396,7 +7396,7 @@ const QUASTIONS_UKRAINE = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Go-A - ЖАЛЬМЕНІНА",
+      answer: 'Go-A - ЖАЛЬМЕНІНА',
       questionNode: (
         <iframe
           width="560"
@@ -7413,15 +7413,15 @@ const QUASTIONS_UKRAINE = {
   ],
 };
 const MULTFILM = {
-  name: "Mult 2025",
+  name: 'Mult 2025',
   id: uuidv4(),
-  type: "iframe",
-  color: "#D2B48C",
+  type: 'iframe',
+  color: '#D2B48C',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Геркулес",
+      answer: 'Геркулес',
       questionNode: (
         <iframe
           width="560"
@@ -7438,7 +7438,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Утиные истории",
+      answer: 'Утиные истории',
       questionNode: (
         <iframe
           width="560"
@@ -7455,7 +7455,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Сэйлор Мун",
+      answer: 'Сэйлор Мун',
       questionNode: (
         <iframe
           width="560"
@@ -7472,7 +7472,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Чип и Дейл",
+      answer: 'Чип и Дейл',
       questionNode: (
         <iframe
           width="560"
@@ -7489,7 +7489,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Покемоны",
+      answer: 'Покемоны',
       questionNode: (
         <iframe
           width="560"
@@ -7506,7 +7506,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Жил-был пес",
+      answer: 'Жил-был пес',
       questionNode: (
         <iframe
           width="560"
@@ -7523,7 +7523,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Аладин",
+      answer: 'Аладин',
       questionNode: (
         <iframe
           width="560"
@@ -7540,7 +7540,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Том и Джерри",
+      answer: 'Том и Джерри',
       questionNode: (
         <iframe
           width="560"
@@ -7557,7 +7557,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Русалочка",
+      answer: 'Русалочка',
       questionNode: (
         <iframe
           width="560"
@@ -7574,7 +7574,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Губка Боб",
+      answer: 'Губка Боб',
       questionNode: (
         <iframe
           width="560"
@@ -7591,7 +7591,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Розовая пантера",
+      answer: 'Розовая пантера',
       questionNode: (
         <iframe
           width="560"
@@ -7608,7 +7608,7 @@ const MULTFILM = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Шрэк",
+      answer: 'Шрэк',
       questionNode: (
         <iframe
           width="560"
@@ -7625,15 +7625,15 @@ const MULTFILM = {
   ],
 };
 const ADD = {
-  name: "Add 2025",
+  name: 'Add 2025',
   id: uuidv4(),
-  type: "iframe",
-  color: "#A0522D",
+  type: 'iframe',
+  color: '#A0522D',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Фери",
+      answer: 'Фери',
       questionNode: (
         <iframe
           width="560"
@@ -7650,7 +7650,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Мерси шоколад",
+      answer: 'Мерси шоколад',
       questionNode: (
         <iframe
           width="560"
@@ -7667,7 +7667,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Бондюэль",
+      answer: 'Бондюэль',
       questionNode: (
         <iframe
           width="560"
@@ -7684,7 +7684,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Модум",
+      answer: 'Модум',
       questionNode: (
         <iframe
           width="560"
@@ -7701,7 +7701,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Матиас",
+      answer: 'Матиас',
       questionNode: (
         <iframe
           width="560"
@@ -7718,7 +7718,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Лидский квас",
+      answer: 'Лидский квас',
       questionNode: (
         <iframe
           width="560"
@@ -7735,7 +7735,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Олвэйс",
+      answer: 'Олвэйс',
       questionNode: (
         <iframe
           width="560"
@@ -7752,7 +7752,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Тайд",
+      answer: 'Тайд',
       questionNode: (
         <iframe
           width="560"
@@ -7769,7 +7769,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Простоквашино",
+      answer: 'Простоквашино',
       questionNode: (
         <iframe
           width="560"
@@ -7786,7 +7786,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Колгейт",
+      answer: 'Колгейт',
       questionNode: (
         <iframe
           width="560"
@@ -7803,7 +7803,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Алiварыя",
+      answer: 'Алiварыя',
       questionNode: (
         <iframe
           width="560"
@@ -7820,7 +7820,7 @@ const ADD = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Лiдскае пiва",
+      answer: 'Лiдскае пiва',
       questionNode: (
         <iframe
           width="560"
@@ -7838,15 +7838,15 @@ const ADD = {
 };
 
 const QUASTIONS_MOVIES_2025 = {
-  name: "MOVIES 2025",
+  name: 'MOVIES 2025',
   id: uuidv4(),
-  type: "iframe",
-  color: "#8B4513",
+  type: 'iframe',
+  color: '#8B4513',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: "Побег из Шоушенка",
+      answer: 'Побег из Шоушенка',
       questionNode: (
         <iframe
           width="560"
@@ -7863,7 +7863,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Бой цовский клуб",
+      answer: 'Бой цовский клуб',
       questionNode: (
         <iframe
           width="560"
@@ -7880,7 +7880,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Сердцеедки",
+      answer: 'Сердцеедки',
       questionNode: (
         <iframe
           width="560"
@@ -7897,7 +7897,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Гладиатор",
+      answer: 'Гладиатор',
       questionNode: (
         <iframe
           width="560"
@@ -7914,7 +7914,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Пришельцы коридоры времени",
+      answer: 'Пришельцы коридоры времени',
       questionNode: (
         <iframe
           width="560"
@@ -7931,7 +7931,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Американский пирог",
+      answer: 'Американский пирог',
       questionNode: (
         <iframe
           width="560"
@@ -7948,7 +7948,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Хроники Нарнии",
+      answer: 'Хроники Нарнии',
       questionNode: (
         <iframe
           width="560"
@@ -7965,7 +7965,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Евротур",
+      answer: 'Евротур',
       questionNode: (
         <iframe
           width="560"
@@ -7982,7 +7982,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Один Дома",
+      answer: 'Один Дома',
       questionNode: (
         <iframe
           width="560"
@@ -7999,7 +7999,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Эффект бабочки",
+      answer: 'Эффект бабочки',
       questionNode: (
         <iframe
           width="560"
@@ -8016,7 +8016,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Воздушная тюрьма",
+      answer: 'Воздушная тюрьма',
       questionNode: (
         <iframe
           width="560"
@@ -8033,7 +8033,7 @@ const QUASTIONS_MOVIES_2025 = {
     {
       user: null,
       id: uuidv4(),
-      answer: "Очень страшное кино",
+      answer: 'Очень страшное кино',
       questionNode: (
         <iframe
           width="560"
