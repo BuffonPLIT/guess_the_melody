@@ -1,5 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit'
-import { v4 as uuidv4 } from "uuid";
+import { createSlice } from '@reduxjs/toolkit';
+import { v4 as uuidv4 } from 'uuid';
 import { DEFAULT_PLAYERS } from '../constants/constants';
 
 export const playersSlice = createSlice({
@@ -11,10 +11,10 @@ export const playersSlice = createSlice({
     incrementPlayers: (state) => {
       state.value.push({
         id: uuidv4(),
-        name: "",
-        avatar: "",
-        rightAnswers: []
-      },)
+        name: '',
+        avatar: '',
+        rightAnswers: [],
+      });
     },
     decrementPlayers: (state) => {
       state.value.pop();
@@ -23,8 +23,8 @@ export const playersSlice = createSlice({
       state.value = actions.payload;
     },
   },
-})
+});
 
-export const { incrementPlayers, decrementPlayers, updatePlayers } = playersSlice.actions
+export const { incrementPlayers, decrementPlayers, updatePlayers } = playersSlice.actions;
 
-export default playersSlice.reducer
+export default playersSlice.reducer;

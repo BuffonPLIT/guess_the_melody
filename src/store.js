@@ -5,6 +5,6 @@ import playersListReducer from './redux/playersSlice';
 export default configureStore({
   reducer: {
     counter: counterReducer,
-    playersList: playersListReducer
+    playersList: playersListReducer,
   },
-})
+});
