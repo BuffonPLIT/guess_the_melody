@@ -36,7 +36,7 @@ function Questions({ activeTheme }) {
   };
 
   return (
-    <Box className="Game" sx={{ background: '#ffeeee' }}>
+    <Box className="Game">
       <Box>
         <Box key={activeTheme?.id}>
           <ButtonGroup
