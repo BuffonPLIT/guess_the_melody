@@ -6,7 +6,6 @@ import AcUnitRoundedIcon from '@mui/icons-material/AcUnitRounded';
 
 function PlayersResults() {
   const playersList = useSelector((state) => state.playersList.value);
-  console.log(playersList);
   return (
     <Grid
       item

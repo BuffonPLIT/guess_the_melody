@@ -23,7 +23,7 @@ const icon = (
   </Paper>
 );
 
-export default function Quastion({
+export default function Question({
   id,
   answer,
   color,

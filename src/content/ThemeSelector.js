@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import { Avatar, Badge, Grid } from '@mui/material';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import { MUSIC_THEME_LIST } from '../constants/quastions';
+import { MUSIC_THEME_LIST } from '../constants/themeList';
 
 function ThemeSelector({ selectThemeHandle, activeTheme }) {
   // Состояние для хранения информации о заблокированных темах

@@ -1,20 +1,12 @@
 import React, { useState } from 'react';
-import Quastions from './Quastions';
+import Questions from './QuestionList';
 import { Container, Grid } from '@mui/material';
 import PlayersResults from './PlayersResults';
 import ThemeSelector from './ThemeSelector';
 import { Box } from '@mui/system';
 
 function Game() {
-  let [activeTheme, setActiveTheme] = useState(null);
-
-  // const test = async () => {
-  //   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-  //   const data = await response.json();
-  //   console.log(data.filter(item => item.id < 20));
-  // }
-
-  // test();
+  const [activeTheme, setActiveTheme] = useState(null);
 
   const selectThemeHandle = (theme) => {
     setActiveTheme(theme);
@@ -35,7 +27,6 @@ function Game() {
           flexDirection: 'row',
           alignItems: 'flex-start',
           justifyContent: 'space-between',
-          background: '#ffeeee',
         }}
       >
         <Box
@@ -46,7 +37,7 @@ function Game() {
           }}
         >
           <ThemeSelector selectThemeHandle={selectThemeHandle} activeTheme={activeTheme} />
-          <Quastions activeTheme={activeTheme} />
+          <Questions activeTheme={activeTheme} />
         </Box>
         <Box
           sx={{
