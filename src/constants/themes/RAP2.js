@@ -1,20 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_SOUNDTRACK_2 = {
-  name: 'Soundtrack 2',
+const RAP2 = {
+  name: 'Rap+Hip-Hop',
   id: uuidv4(),
   type: 'iframe',
-  color: '#B22222',
+  color: '#000000',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Rock',
+      answer: 'The Black Eyed Peas - Don"t Phunk With My Heart',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/gPtPxqTdkig?start=256"
+          src="https://www.youtube.com/embed/P4Bda6_usuc?start=58"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -24,12 +24,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: '8 mile',
+      answer: '50 Cent - Candy Shop',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/1UbigwBZlKo?start=30"
+          src="https://www.youtube.com/embed/SRcnnId15BA?start=29"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -39,12 +39,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Matrix',
+      answer: 'Bomfunk MC"s - Freestyler',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/tuRhE7y6-EA?start=277"
+          src="https://www.youtube.com/embed/ymNFyxvIdaM"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -54,12 +54,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Blade',
+      answer: 'Will Smith - Party Starter',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/cNOP2t9FObw?start=9"
+          src="https://www.youtube.com/embed/FYxvPOK6_xg"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -69,12 +69,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Titanic',
+      answer: 'Die Antwoord - Rich Bitch',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/OSZCFFpix2g?start=75"
+          src="https://www.youtube.com/embed/8bdeizHM9OU"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -84,12 +84,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Pirates Of Caribbean',
+      answer: 'Dr. Dre - Still D.R.E. ft. Snoop Dogg',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/8TTUBMTInVE?start=20"
+          src="https://www.youtube.com/embed/_CL6n0FJZpk?start=31"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -99,12 +99,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Office',
+      answer: 'Cypis - Putin',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/lNL0Ty_8_ck"
+          src="https://www.youtube.com/embed/dBqBJ6C5Mkw?start=34"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -114,12 +114,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Saw',
+      answer: 'DMX - Where The Hood At',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/hWaNoK3gN6M?start=52"
+          src="https://www.youtube.com/embed/6CqXgs-7ico?start=21"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -129,12 +129,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Peppa Pig',
+      answer: 'Eminem - Without Me',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/yUlVxPjjoo0?start=30"
+          src="https://www.youtube.com/embed/YVkUvmDQ3HY?start=236"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -144,12 +144,29 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Wlly Wonka',
+      answer: '2Pac - California Love feat. Dr. Dre',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/QkC8wPSmcPg?start=30"
+          src="https://www.youtube.com/embed/omfz62qu_Bc?si=NS1K76w8hM7wwcHQ&amp;start=217"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      ),
+    },
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'Kalush Orchestra - Stefania',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Z8Z51no1TD0?start=70"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -159,27 +176,12 @@ const QUASTIONS_SOUNDTRACK_2 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'James Bond',
+      answer: 'Coolio - Gangsta"s Paradise',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/U9FzgsF2T-s"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
-        ></iframe>
-      ),
-    },
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'Zorro',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/3ctXOC_NIDE?start=44"
+          src="https://www.youtube.com/embed/fPO76Jlnz6c?start=12"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -189,4 +191,4 @@ const QUASTIONS_SOUNDTRACK_2 = {
   ],
 };
 
-export { QUASTIONS_SOUNDTRACK_2 };
+export { RAP2 };

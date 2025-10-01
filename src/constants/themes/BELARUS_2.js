@@ -1,192 +1,214 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_80S_2 = {
-  name: '80s',
+const THEME_BELARUS_2 = {
+  name: 'Belarus цяжкае',
   id: uuidv4(),
   type: 'iframe',
-  color: '#4A7C59',
+  color: '#6A0DAD',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'Madonna - Like A Prayer',
+      answer: 'Arcanum - Таямніца часу',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/79fzeNUqQbQ?start=40"
+          src="https://www.youtube.com/embed/_3El2Sq17R0?si=gAu4E70UIhmLOl_w&amp;start=57"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Bad Boys Blue - You"re A Woman',
+      answer: 'Дрыгва - Святочная',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/5dkpk1gmaDc?start=144"
+          src="https://www.youtube.com/embed/b2QTAEt0i9U?si=3eL5Ix9YGu-M0aT1&amp;start=57"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Modern Talking - You"re My Heart',
+      answer: 'Sciana - Ya Edu',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/4kHl4FoK1Ys?start=4"
+          src="https://www.youtube.com/embed/SUR4pnWMcQk?si=mBmZ8jT4i4mJdR2f&amp;start=108"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Depeche Mode - Enjoy The Silence',
+      answer: 'Дай Дарогу! - Баю Бай 2020',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/aGSKrC7dGcY?start=74"
+          src="https://www.youtube.com/embed/1WsSMMEh5wM?start=73"
           title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      ),
+    },
+
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'Гузiк гр Нейро',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/pyjTQkfF0G8?si=NWyixFgVkQ8otiXN&amp;start=37"
+          title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Bon Jovi - You Give Love A Bad Name',
+      answer: 'Wartha - Ziamla',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/KrZHPOeOxQQ?start=6"
+          src="https://www.youtube.com/embed/-TstGG2LNQ8?si=JlFwpUd3-YvVnBPe&amp;start=118"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Boney M. - Gotta Go Home',
+      answer: 'Znich - Дунаю',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/ddq5Rdx8Uw4?start=3"
+          src="https://www.youtube.com/embed/Xt9vK0RgXiQ?si=LHlrqjCIyNg3OnU5&amp;start=48"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'ABBA - Lay All Your Love On Me',
+      answer: 'Глюкі - Птушкі',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/ulZQTrV8QlQ?start=74"
+          src="https://www.youtube.com/embed/l1tWeNHaNvg?si=grG_AuGaVymqumkJ&amp;start=37"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Scorpions - Still Loving You',
+      answer: 'Irdorath - VAUKALAK',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/CjRas1yOWvo?start=120"
+          src="https://www.youtube.com/embed/NG7WQkqhScw?si=3tQGJD9xbuaa8T2J&amp;start=79"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Deep Purple - Smoke On The Water',
+      answer: 'Litvintroll - Da Siabra',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/gBiNR9SY7Gw"
+          src="https://www.youtube.com/embed/w_mYLnN5uG8?si=4vTTHl9wana_3YxR&amp;start=72"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Michael Jackson - Smooth Criminal',
+      answer: 'ТТ34 - Дом который построил Джек',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/h_D3VFfhvs4?start=65"
+          src="https://www.youtube.com/embed/ic_Z_B8xJnA?si=n5857naJ-hjjS72o&amp;start=165"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Duran Duran - Come Undone',
+      answer: 'Rasta',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/Epj84QVw2rc?start=104"
+          src="https://www.youtube.com/embed/7IsPpGH-q6k?si=cT5umT-Iat1cdaMT&amp;start=276"
           title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
-        ></iframe>
-      ),
-    },
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'AC/DC - Hells Bells',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/etAIpkdhU9Q?start=68"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          al
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       ),
     },
   ],
 };
 
-export { QUASTIONS_80S_2 };
+export { THEME_BELARUS_2 };

@@ -1,35 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_BELARUS = {
-  name: 'Belarus лёгкае',
+const THEME_90S = {
+  name: '90s 3',
   id: uuidv4(),
   type: 'iframe',
-  color: '#4B0082',
+  color: '#32CD32',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'Крамбамбуля - З новым Годам',
+      answer: 'The Cranberries - Zombie',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/Dp-CT_EhoPo?start=46"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-      ),
-    },
-
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'Леприконсы - Хали Гали',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/rUd2diUWDyI?start=8"
+          src="https://www.youtube.com/embed/6Ejga4kJUts?start=153"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -38,160 +23,152 @@ const QUASTIONS_BELARUS = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Песняры - касіў ясь канюшыну',
+      answer: 'Nirvana - Smells Like Teen Ppirit',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/muPzgpf9Y-g"
+          src="https://www.youtube.com/embed/hTWKbfoikeg?start=116"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
-
     {
       user: null,
       id: uuidv4(),
-      answer: 'NAVIBAND - ІНШЫМІ',
+      answer: 'Shakira - Whenever',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/la_Yrf7kK3U?start=17"
+          src="https://www.youtube.com/embed/weRHyjj34ZE?start=3"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
-
     {
       user: null,
       id: uuidv4(),
-      answer: 'Стары Ольса - Песня а князю Вітаўце',
+      answer: 'Avrile Lavigne - Complicated',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/9eJqGRxReuM?si=gCqi0PVnnIYpd3yV&amp;start=43"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      ),
-    },
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'Песняры - Пагоня',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/YNdKXMX5BdU?si=O9fNy0L0rra55HHo&amp;start=164"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      ),
-    },
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'Ляпис Трубецкой - Зорачкi',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ejmPzQU8B2Q?start=8"
+          src="https://www.youtube.com/embed/5NPBIwQyPWE?start=68"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
-
     {
       user: null,
       id: uuidv4(),
-      answer: 'Dzieciuki — Прадаецца краіна',
+      answer: 'Ricky Martin - Livin La Vida Loca',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/HEWWtyyaCjU?si=wf-1CimL5zQYfJQp&amp;start=137"
+          src="https://www.youtube.com/embed/p47fEXGabaY?start=68"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      ),
-    },
-
-    {
-      user: null,
-      id: uuidv4(),
-      answer: 'PAWA - Гандзюленька (feat. Testamentum Terrae)',
-      questionNode: (
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/xxjd0US5INg?si=ILEZZwNI8XJYlheU&amp;start=29"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'NRM - простыя словы',
+      answer: 'DMX - Party Up',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/y6CUCjsZkmU?si=4GYTY8SItCH8d0H3&amp;start=11"
+          src="https://www.youtube.com/embed/thIVtEOtlWM"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Ксения Ситник (Meghan Trainor Cover)',
+      answer: 'Cristina Aguilera - Genie in A Bott...',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/7tJgo4QL_bc?si=eMVXF8g6O5FCqUgB&amp;start=82"
+          src="https://www.youtube.com/embed/kIDWgqDBNXA?start=46"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'NIZKIZ - Небяспечна',
+      answer: 'Natalia Oreiro - Cambio Dolor',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/BsL6KP3JSzQ?si=KtkVeLPV8ryWg5wb&amp;start=52"
+          src="https://www.youtube.com/embed/G6OYDUomYwI?start=44"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      ),
+    },
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'The Offspring - The Kids Are Not ...',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7iNbnineUCI?start=34"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      ),
+    },
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'Britney Spearts - Baby One Mory Time',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/C-u5WLJ9Yk4?start=20"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      ),
+    },
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'Jenifer Lopez - Jenny from the',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dly6p4Fu5TE?start=45"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      ),
+    },
+    {
+      user: null,
+      id: uuidv4(),
+      answer: 'Rammstein - Du Hast',
+      questionNode: (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/W3q8Od5qJio?si=Mu5QaAawXjWwjxUZ&amp;start=217"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -203,4 +180,4 @@ const QUASTIONS_BELARUS = {
   ],
 };
 
-export { QUASTIONS_BELARUS };
+export { THEME_90S };

@@ -1,216 +1,192 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_MOVIES_2025 = {
-  name: 'MOVIES 2025',
+const THEME_SOUNDTRACK_3 = {
+  name: 'Soundtrack 3',
   id: uuidv4(),
   type: 'iframe',
-  color: '#8B4513',
+  color: '#DC143C',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'Побег из Шоушенка',
+      answer: 'The Lord Of The Ring',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/00QoDkBsVjs?si=X4YoY-h0Hx4Pc8e9&amp;start=96"
+          src="https://www.youtube.com/embed/1OvmsZ5-gYw?start=117"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Бой цовский клуб',
+      answer: 'Amelie',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/8M2UwQXCUa4?si=M9fgidFDGX4tc1SX&amp;start=25"
+          src="https://www.youtube.com/embed/2W_G3xmSGfo?start=58"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Сердцеедки',
+      answer: 'From Dusk Till Dawn',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/epm1IXL5qNw?si=OU0kn6gbDNoNvNw6&amp;start=801"
+          src="https://www.youtube.com/embed/_05lRKSdJBM"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Гладиатор',
+      answer: 'Sinister',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/UnbEmj6qXIY?si=San464dPAifIRofM&amp;start=89"
+          src="https://www.youtube.com/embed/_PgwXe6lAsQ?start=138"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Пришельцы коридоры времени',
+      answer: 'Rocky',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/a5mlis-UDv0?si=3rs464m73WfESoCy&amp;start=40"
+          src="https://www.youtube.com/embed/DhlPAj38rHc?start=9"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Американский пирог',
+      answer: 'Ognem i Mieczem',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/Oj0S7r1xUpA?si=kX8sr1fA0EZt49cY&amp;"
+          src="https://www.youtube.com/embed/3_VcE1yOzPU?start=49"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Хроники Нарнии',
+      answer: 'Resident Evil',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/kBr17rM4W7o?si=QDsW3KsO9scK-lWN&amp;start=12"
+          src="https://www.youtube.com/embed/EBGvtkVVas0?start=59"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Евротур',
+      answer: 'Dirty Dancing 2',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/o5afVq8hgJI?si=u2k0IifBmepA6ABj&amp;"
+          src="https://www.youtube.com/embed/sC5wFByeqn8?start=15"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Один Дома',
+      answer: 'Indiana Jones',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/p9mJ38pbdac?si=gpd21jbIuyB1bUTR&amp;start=26"
+          src="https://www.youtube.com/embed/CXDY0jvaCPw?start=3"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Эффект бабочки',
+      answer: 'Prison Break',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/1GErBP7bcJ4?si=2phZKk5bHEdZmdOg&amp;start=121"
+          src="https://www.youtube.com/embed/aXBVoZ48fRc"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Воздушная тюрьма',
+      answer: 'The Mask',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/rluEJdokANk?si=e4Q9be0MrkmyIi1x"
+          src="https://www.youtube.com/embed/CL0VoyeqZ3c"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
     {
       user: null,
       id: uuidv4(),
-      answer: 'Очень страшное кино',
+      answer: 'Eurotrip Remaster',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/iLWzc81F9Zk?si=8kFVoUtypn_GhuKT&amp;start=1"
+          src="https://www.youtube.com/embed/jUR0RtGJUqc"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          al
         ></iframe>
       ),
     },
   ],
 };
 
-export { QUASTIONS_MOVIES_2025 };
+export { THEME_SOUNDTRACK_3 };

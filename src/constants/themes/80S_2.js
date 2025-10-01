@@ -1,20 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_SOUNDTRACK_3 = {
-  name: 'Soundtrack 3',
+const THEME_80S_2 = {
+  name: '80s',
   id: uuidv4(),
   type: 'iframe',
-  color: '#DC143C',
+  color: '#4A7C59',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Lord Of The Ring',
+      answer: 'Madonna - Like A Prayer',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/1OvmsZ5-gYw?start=117"
+          src="https://www.youtube.com/embed/79fzeNUqQbQ?start=40"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -24,12 +24,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Amelie',
+      answer: 'Bad Boys Blue - You"re A Woman',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/2W_G3xmSGfo?start=58"
+          src="https://www.youtube.com/embed/5dkpk1gmaDc?start=144"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -39,12 +39,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'From Dusk Till Dawn',
+      answer: 'Modern Talking - You"re My Heart',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/_05lRKSdJBM"
+          src="https://www.youtube.com/embed/4kHl4FoK1Ys?start=4"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -54,12 +54,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Sinister',
+      answer: 'Depeche Mode - Enjoy The Silence',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/_PgwXe6lAsQ?start=138"
+          src="https://www.youtube.com/embed/aGSKrC7dGcY?start=74"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -69,12 +69,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Rocky',
+      answer: 'Bon Jovi - You Give Love A Bad Name',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/DhlPAj38rHc?start=9"
+          src="https://www.youtube.com/embed/KrZHPOeOxQQ?start=6"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -84,12 +84,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Ognem i Mieczem',
+      answer: 'Boney M. - Gotta Go Home',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/3_VcE1yOzPU?start=49"
+          src="https://www.youtube.com/embed/ddq5Rdx8Uw4?start=3"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -99,12 +99,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Resident Evil',
+      answer: 'ABBA - Lay All Your Love On Me',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/EBGvtkVVas0?start=59"
+          src="https://www.youtube.com/embed/ulZQTrV8QlQ?start=74"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -114,12 +114,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Dirty Dancing 2',
+      answer: 'Scorpions - Still Loving You',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/sC5wFByeqn8?start=15"
+          src="https://www.youtube.com/embed/CjRas1yOWvo?start=120"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -129,12 +129,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Indiana Jones',
+      answer: 'Deep Purple - Smoke On The Water',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/CXDY0jvaCPw?start=3"
+          src="https://www.youtube.com/embed/gBiNR9SY7Gw"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -144,12 +144,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Prison Break',
+      answer: 'Michael Jackson - Smooth Criminal',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/aXBVoZ48fRc"
+          src="https://www.youtube.com/embed/h_D3VFfhvs4?start=65"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -159,12 +159,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Mask',
+      answer: 'Duran Duran - Come Undone',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/CL0VoyeqZ3c"
+          src="https://www.youtube.com/embed/Epj84QVw2rc?start=104"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -174,12 +174,12 @@ const QUASTIONS_SOUNDTRACK_3 = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Eurotrip Remaster',
+      answer: 'AC/DC - Hells Bells',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/jUR0RtGJUqc"
+          src="https://www.youtube.com/embed/etAIpkdhU9Q?start=68"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           al
@@ -189,4 +189,4 @@ const QUASTIONS_SOUNDTRACK_3 = {
   ],
 };
 
-export { QUASTIONS_SOUNDTRACK_3 };
+export { THEME_80S_2 };

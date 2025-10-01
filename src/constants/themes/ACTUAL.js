@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_ACTUAL = {
+const THEME_ACTUAL = {
   name: '2010+',
   id: uuidv4(),
   type: 'iframe',
@@ -177,4 +177,4 @@ const QUASTIONS_ACTUAL = {
   ],
 };
 
-export { QUASTIONS_ACTUAL };
+export { THEME_ACTUAL };

@@ -1,20 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_80S = {
-  name: '80s',
+const THEME_SOUNDTRACK_4 = {
+  name: 'Soundtrack 4',
   id: uuidv4(),
   type: 'iframe',
-  color: '#006400',
+  color: '#FF0000',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'ABBA - Gimme!Gimme!Gimme!',
+      answer: 'Taxi',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/XEjLoHdbVeE?start=18"
+          src="https://www.youtube.com/embed/i8ITGzgccn0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -23,12 +23,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Boney M - Daddy Cool',
+      answer: 'The Fifth Element',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/FYGTT7YhywA?start=23"
+          src="https://www.youtube.com/embed/oliRQhuy5P8?start=25"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -37,12 +37,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Europe - The final Countdown',
+      answer: 'Terminator 2',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/9jK-NcRmVcw?start=13"
+          src="https://www.youtube.com/embed/piLwaJKQGkA"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -51,12 +51,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'CC Catch - Cause You Are Young',
+      answer: 'Friends',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/u0sp-2dF3ME?start=34"
+          src="https://www.youtube.com/embed/rGqzXQQEn6A?start=122"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -65,12 +65,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Dead Or Alive - You Spin Me Round',
+      answer: 'Wensday',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/PGNiXGX2nLU"
+          src="https://www.youtube.com/embed/qik_1dDvzEs?start=10"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -79,12 +79,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Shocking Blue - Venus',
+      answer: 'The Lord Of The Ring',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/8LhkyyCvUHk?start=32"
+          src="https://www.youtube.com/embed/VfZBayQxkx8?start=173"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -93,12 +93,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Kiss - I Was Made For Loving You',
+      answer: 'Pulp Fiction',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/ZhIsAZO5gl0?start=34"
+          src="https://www.youtube.com/embed/WSLMN6g_Od4?start=85"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -107,12 +107,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'a-Ha - Take On Me',
+      answer: 'Requiem For A Dream',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/djV11Xbc914?start=19"
+          src="https://www.youtube.com/embed/rgmriPFK2-I?start=42"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -121,12 +121,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Michael Jackson - Beat It',
+      answer: 'Leon',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/oRdxUFDoQe0?start=52"
+          src="https://www.youtube.com/embed/QK-Z1K67uaA?start=173"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -135,12 +135,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Madonna - La Isla Bonita',
+      answer: 'Transformers 2',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/zpzdgmqIHOQ"
+          src="https://www.youtube.com/embed/lxxBlVoVvZY?start=77"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -149,12 +149,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Queen - Another One Bites',
+      answer: 'Forsage 3',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/rY0WxgSXdEE?start=45"
+          src="https://www.youtube.com/embed/z_V5cIaDRAw?start=6"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -163,12 +163,12 @@ const QUASTIONS_80S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Modern Talking - Cheri Cheri Lady',
+      answer: 'Yamakasi',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/eNvUS-6PTbs"
+          src="https://www.youtube.com/embed/YpC5V5CwGXg"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -177,4 +177,4 @@ const QUASTIONS_80S = {
   ],
 };
 
-export { QUASTIONS_80S };
+export { THEME_SOUNDTRACK_4 };

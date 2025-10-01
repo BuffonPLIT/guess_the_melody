@@ -1,20 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_00S = {
-  name: '2000s',
+const THEME_80S = {
+  name: '80s',
   id: uuidv4(),
   type: 'iframe',
-  color: '#00FF00',
+  color: '#006400',
   list: [
     {
       user: null,
       id: uuidv4(),
-      answer: 'Green Day - American Idiot',
+      answer: 'ABBA - Gimme!Gimme!Gimme!',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/Ee_uujKuJMI"
+          src="https://www.youtube.com/embed/XEjLoHdbVeE?start=18"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -23,12 +23,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Cardigans - My Favourite Game',
+      answer: 'Boney M - Daddy Cool',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/u9WgtlgGAgs?start=31"
+          src="https://www.youtube.com/embed/FYGTT7YhywA?start=23"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -37,12 +37,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Justin Timberlake - Cry Me A River...',
+      answer: 'Europe - The final Countdown',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/DksSPZTZES0?start=11"
+          src="https://www.youtube.com/embed/9jK-NcRmVcw?start=13"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -51,12 +51,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Alizee - Moi Lolita',
+      answer: 'CC Catch - Cause You Are Young',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/QpbHdIrtpNo?start=135"
+          src="https://www.youtube.com/embed/u0sp-2dF3ME?start=34"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -65,12 +65,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Katty Perry - I Kiss A Girl',
+      answer: 'Dead Or Alive - You Spin Me Round',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/tAp9BKosZXs?start=69"
+          src="https://www.youtube.com/embed/PGNiXGX2nLU"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -79,12 +79,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'The Black Eyed Peas - My Humps',
+      answer: 'Shocking Blue - Venus',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/iEe_eraFWWs?start=45"
+          src="https://www.youtube.com/embed/8LhkyyCvUHk?start=32"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -93,12 +93,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Bomfunk MC"s - Something Going On',
+      answer: 'Kiss - I Was Made For Loving You',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/MSqDIWI__Ew?start=40"
+          src="https://www.youtube.com/embed/ZhIsAZO5gl0?start=34"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -107,12 +107,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: '50 Cent - In Da Club',
+      answer: 'a-Ha - Take On Me',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/5qm8PH4xAss"
+          src="https://www.youtube.com/embed/djV11Xbc914?start=19"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -121,12 +121,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Lady Gaga - Just Dance',
+      answer: 'Michael Jackson - Beat It',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/2Abk1jAONjw?start=4"
+          src="https://www.youtube.com/embed/oRdxUFDoQe0?start=52"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -135,12 +135,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Armin Van Buren feat Sharon den Adel',
+      answer: 'Madonna - La Isla Bonita',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/TxvpctgU_s8?start=56"
+          src="https://www.youtube.com/embed/zpzdgmqIHOQ"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -149,12 +149,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Rihanna - Disturbia',
+      answer: 'Queen - Another One Bites',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/E1mU6h4Xdxc?start=69"
+          src="https://www.youtube.com/embed/rY0WxgSXdEE?start=45"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -163,12 +163,12 @@ const QUASTIONS_00S = {
     {
       user: null,
       id: uuidv4(),
-      answer: 'Beyonce - Crazy In Love',
+      answer: 'Modern Talking - Cheri Cheri Lady',
       questionNode: (
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/ViwtNLUqkMY?start=4"
+          src="https://www.youtube.com/embed/eNvUS-6PTbs"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
@@ -177,4 +177,4 @@ const QUASTIONS_00S = {
   ],
 };
 
-export { QUASTIONS_00S };
+export { THEME_80S };

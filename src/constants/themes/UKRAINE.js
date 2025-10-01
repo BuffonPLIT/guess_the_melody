@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const QUASTIONS_UKRAINE = {
+const THEME_UKRAINE = {
   name: 'Ukraine',
   id: uuidv4(),
   type: 'iframe',
@@ -212,4 +212,4 @@ const QUASTIONS_UKRAINE = {
   ],
 };
 
-export { QUASTIONS_UKRAINE };
+export { THEME_UKRAINE };
