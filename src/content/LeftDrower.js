@@ -7,12 +7,15 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import { ButtonGroup, IconButton } from '@mui/material';
 import PlayerProfile from './PlayerProfile';
+import RefrigeratorCalculator from './RefrigeratorCalculator';
 import { useSelector, useDispatch } from 'react-redux';
 import { decrementPlayers, incrementPlayers, updatePlayers } from '../redux/playersSlice';
 import MenuIcon from '@mui/icons-material/Menu';
+import KitchenIcon from '@mui/icons-material/Kitchen';
 
 function LeftDrawer() {
   const [state, setState] = React.useState({ left: false });
+  const [showCalculator, setShowCalculator] = React.useState(false);
   const dispatch = useDispatch();
   const playersList = useSelector((state) => state.playersList.value);
 
@@ -45,40 +48,65 @@ function LeftDrawer() {
 
   const list = (anchor) => (
     <Box sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 500 }} role="presentation">
-      <List>
-        <ListItem key="count-btns">
-          <Box
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              '& > *': {
-                m: 1,
-              },
-            }}
-          >
-            <ButtonGroup variant="outlined" aria-label="outlined button group">
-              <Button onClick={removePlayer} disabled={playersList.length < 4}>
-                -
-              </Button>
-              <Button disabled>{playersList.length}</Button>
-              <Button onClick={addPlayer}>+</Button>
-            </ButtonGroup>
+      {showCalculator ? (
+        <Box>
+          <Box sx={{ p: 2, display: 'flex', alignItems: 'center', gap: 1 }}>
+            <Button onClick={() => setShowCalculator(false)}>← Назад</Button>
+            <KitchenIcon />
+            <Box sx={{ fontWeight: 'bold' }}>Калькулятор холодильников</Box>
           </Box>
-        </ListItem>
-        {playersList.map((item, index) => (
-          <ListItem key={item.id}>
-            <PlayerProfile
-              id={item.id}
-              avalink={item.avatar}
-              name={item.name}
-              onAvaChange={onAvaChange}
-              onNameChange={onNameChange}
-            />
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
+          <Divider />
+          <RefrigeratorCalculator />
+        </Box>
+      ) : (
+        <>
+          <List>
+            <ListItem key="calculator-btn">
+              <Button
+                fullWidth
+                variant="outlined"
+                startIcon={<KitchenIcon />}
+                onClick={() => setShowCalculator(true)}
+                sx={{ mb: 1 }}
+              >
+                Калькулятор экономии холодильников
+              </Button>
+            </ListItem>
+            <ListItem key="count-btns">
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  '& > *': {
+                    m: 1,
+                  },
+                }}
+              >
+                <ButtonGroup variant="outlined" aria-label="outlined button group">
+                  <Button onClick={removePlayer} disabled={playersList.length < 4}>
+                    -
+                  </Button>
+                  <Button disabled>{playersList.length}</Button>
+                  <Button onClick={addPlayer}>+</Button>
+                </ButtonGroup>
+              </Box>
+            </ListItem>
+            {playersList.map((item, index) => (
+              <ListItem key={item.id}>
+                <PlayerProfile
+                  id={item.id}
+                  avalink={item.avatar}
+                  name={item.name}
+                  onAvaChange={onAvaChange}
+                  onNameChange={onNameChange}
+                />
+              </ListItem>
+            ))}
+          </List>
+          <Divider />
+        </>
+      )}
     </Box>
   );
 
